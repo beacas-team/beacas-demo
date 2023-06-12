@@ -1,0 +1,98 @@
+{
+  "subject": "Custom block",
+  "content": {
+    "data": {
+      "fonts": [
+        {
+          "href": "https://fonts.googleapis.com/css?family=Tangerine",
+          "name": "Tangerine"
+        }
+      ],
+      "breakpoint": "480px",
+      "blockAttributes": {
+        "standard-paragraph": {
+          "padding-right": "2px",
+          "padding-bottom": "3px"
+        }
+      },
+      "classAttributes": {},
+      "globalAttributes": {},
+      "categoryAttributes": {
+        "BUTTON": { "padding-right": "25px", "padding-bottom": "10px" }
+      }
+    },
+    "type": "page",
+    "children": [
+      {
+        "type": "standard-section",
+        "data": {},
+        "attributes": {
+          "padding-bottom": "10px",
+          "padding-right": "0px",
+          "padding-left": "0px"
+        },
+        "children": [
+          {
+            "type": "standard-column",
+            "data": {},
+            "attributes": {},
+            "children": [
+              {
+                "type": "standard-image",
+                "data": {},
+                "attributes": {
+                  "padding": "0px 0px 0px 0px",
+                  "padding-bottom": "0px",
+                  "padding-right": "0px",
+                  "src": "http://res.cloudinary.com/dfite2e16/image/upload/v1682341762/beacas/ftwn32fhyholn4c9jpxs.png",
+                  "width": "150px"
+                },
+                "children": [{ "text": "" }],
+                "mobileAttributes": {
+                  "padding-bottom": "0px",
+                  "padding-right": "0px"
+                }
+              },
+              {
+                "type": "standard-navbar",
+                "data": {
+                  "list": [
+                    { "href": "", "content": "Home" },
+                    { "href": "", "content": "Home1" },
+                    { "href": "", "content": "Home2" },
+                    { "href": "", "content": "About" },
+                    { "href": "", "content": "Contact" },
+                    { "href": "", "content": "Blog" }
+                  ]
+                },
+                "attributes": {
+                  "padding-bottom": "10px",
+                  "padding-right": "25px",
+                  "color": "#083B66",
+                  "spacing": "30px"
+                },
+                "children": [{ "text": "" }]
+              }
+            ]
+          }
+        ],
+        "mobileAttributes": { "padding-bottom": "10px", "padding-right": "0px" }
+      },
+      {
+        "type": "simple_custom_block",
+        "data": { "buttonText": "Save" },
+        "attributes": {
+          "src": "http://res.cloudinary.com/dwkp0e1yo/image/upload/v1683558730/cpj7ounkmdloulpg6ofh.png",
+          "button-color": "#4a90e2"
+        },
+        "children": [{ "text": "" }]
+      }
+    ],
+    "attributes": {
+      "width": "600px",
+
+      "background-color": "#f3f2f2",
+      "content-background-color": "#FFFFFF"
+    }
+  }
+}

@@ -1,0 +1,474 @@
+{
+  "id": 5,
+  "subject": "Happy anniversary",
+  "thumbnail": "http://res.cloudinary.com/dwkp0e1yo/image/upload/v1685978042/beacas-test/hszajijqbpe39cdhl3uz.png",
+  "content": {
+    "data": {
+      "breakpoint": "480px"
+    },
+    "type": "page",
+    "children": [
+      {
+        "type": "standard-section",
+        "data": {},
+        "attributes": {
+          "padding-top": "0px",
+          "padding-bottom": "0px",
+          "background-color": "#FFFFFF"
+        },
+        "children": [
+          {
+            "type": "standard-column",
+            "data": {},
+            "attributes": {},
+            "children": [
+              {
+                "name": "Text",
+                "type": "standard-paragraph",
+                "data": {},
+                "attributes": {
+                  "container-background-color": "#B5B1CE",
+                  "padding-top": "16px",
+                  "padding-bottom": "16px"
+                },
+                "children": [
+                  {
+                    "text": "FREE SHIPPING ON ORDERS OVER $100"
+                  }
+                ]
+              },
+              {
+                "type": "standard-navbar",
+                "data": {},
+                "attributes": {},
+                "children": [
+                  {
+                    "data": {},
+                    "type": "standard-navbar-link",
+                    "children": [
+                      {
+                        "text": "Shop"
+                      }
+                    ],
+                    "attributes": {
+                      "href": ""
+                    }
+                  },
+                  {
+                    "data": {},
+                    "type": "standard-navbar-link",
+                    "children": [
+                      {
+                        "text": "About"
+                      }
+                    ],
+                    "attributes": {
+                      "href": ""
+                    }
+                  },
+                  {
+                    "data": {},
+                    "type": "standard-navbar-link",
+                    "children": [
+                      {
+                        "text": "Contact"
+                      }
+                    ],
+                    "attributes": {
+                      "href": ""
+                    }
+                  },
+                  {
+                    "data": {},
+                    "type": "standard-navbar-link",
+                    "children": [
+                      {
+                        "text": "Blog"
+                      }
+                    ],
+                    "attributes": {
+                      "href": ""
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "standard-section",
+        "data": {},
+        "attributes": {
+          "background-image-enabled": true,
+          "background-url": "http://res.cloudinary.com/dwkp0e1yo/image/upload/v1685975881/beacas-test/qqspmlvqkx0imwkjg7ly.png",
+          "background-position": "center center",
+          "background-color": "#CAC5E6",
+          "padding-left": "40px",
+          "padding-right": "40px",
+          "padding-top": "40px",
+          "padding-bottom": "40px"
+        },
+        "children": [
+          {
+            "type": "standard-column",
+            "attributes": {
+              "width": "100%"
+            },
+            "data": {},
+            "children": [
+              {
+                "type": "standard-image",
+                "data": {},
+                "attributes": {
+                  "padding-top": "0px",
+                  "padding-bottom": "0px",
+                  "padding-left": "0px",
+                  "padding-right": "0px",
+                  "src": "http://res.cloudinary.com/dwkp0e1yo/image/upload/v1685975936/beacas-test/lycc9pckp6bppgfrnmby.png"
+                },
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "name": "Text",
+                "type": "standard-paragraph",
+                "data": {},
+                "attributes": {
+                  "container-background-color": "#FFFFFF",
+                  "font-size": "36px",
+                  "padding-top": "20px",
+                  "padding-bottom": "20px"
+                },
+                "children": [
+                  {
+                    "text": "Happy anniversary"
+                  }
+                ],
+                "mobileAttributes": {
+                  "padding-left": "0px",
+                  "padding-right": "0px"
+                }
+              },
+              {
+                "name": "Text",
+                "type": "standard-paragraph",
+                "data": {},
+                "attributes": {
+                  "container-background-color": "#FFFFFF",
+                  "font-size": "16px",
+                  "padding-bottom": "30px"
+                },
+                "children": [
+                  {
+                    "text": "We couldn't have come this far without you. To celebrate this special day, here's 10% off your next order."
+                  }
+                ]
+              },
+              {
+                "type": "standard-button",
+                "data": {
+                  "content": "Button"
+                },
+                "attributes": {
+                  "background-color": "#E84A9E",
+                  "width": "100%",
+                  "border-radius": "30px",
+                  "padding-top": "20px",
+                  "padding-bottom": "0px"
+                },
+                "children": [
+                  {
+                    "text": "CLAIM YOUR 10% OFF"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "mobileAttributes": {
+          "padding-top": "20px",
+          "padding-bottom": "20px",
+          "padding-left": "20px",
+          "padding-right": "20px"
+        }
+      },
+      {
+        "type": "standard-section",
+        "data": {},
+        "attributes": {
+          "background-color": "#FFFFFF"
+        },
+        "children": [
+          {
+            "type": "standard-column",
+            "attributes": {
+              "width": "50%"
+            },
+            "data": {},
+            "children": [
+              {
+                "type": "standard-image",
+                "data": {},
+                "attributes": {
+                  "padding-top": "30px",
+                  "padding-bottom": "30px",
+                  "padding-left": "30px",
+                  "padding-right": "30px",
+                  "width": "500px",
+                  "src": "http://res.cloudinary.com/dwkp0e1yo/image/upload/v1685977155/beacas-test/tawx9umkljuvsny9mkpc.png"
+                },
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "standard-column",
+            "attributes": {
+              "width": "50%"
+            },
+            "data": {},
+            "children": [
+              {
+                "name": "Text",
+                "type": "standard-paragraph",
+                "data": {},
+                "attributes": {
+                  "align": "left",
+                  "padding-top": "30px"
+                },
+                "children": [
+                  {
+                    "text": "FEATURE ADD-ON"
+                  },
+                  {
+                    "type": "line-break",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "data": {},
+                    "attributes": {}
+                  },
+                  {
+                    "text": ""
+                  },
+                  {
+                    "type": "line-break",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "data": {},
+                    "attributes": {}
+                  },
+                  {
+                    "text": "Bestselling scrub sponges",
+                    "bold": true
+                  },
+                  {
+                    "type": "line-break",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "data": {},
+                    "attributes": {}
+                  },
+                  {
+                    "text": ""
+                  },
+                  {
+                    "type": "line-break",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "data": {},
+                    "attributes": {}
+                  },
+                  {
+                    "text": "Save an additional 10% when you add-on one of our plant-based scrub sponges."
+                  }
+                ]
+              },
+              {
+                "type": "standard-button",
+                "data": {
+                  "content": "Button"
+                },
+                "attributes": {
+                  "color": "#E84A9E",
+                  "background-color": "#FFFFFF",
+                  "border-enabled": true,
+                  "border-color": "#E84A9E",
+                  "padding-top": "30px",
+                  "align": "center"
+                },
+                "children": [
+                  {
+                    "text": "Shop sponges"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "standard-section",
+        "data": {},
+        "attributes": {
+          "background-image-enabled": true,
+          "background-url": "http://res.cloudinary.com/dwkp0e1yo/image/upload/v1685977631/beacas-test/ou2pmetubwubb66rcp94.png",
+          "background-color": "#CAC5E6",
+          "padding-top": "32px",
+          "padding-bottom": "32px",
+          "padding-left": "40px",
+          "padding-right": "40px",
+          "background-position": "center center"
+        },
+        "children": [
+          {
+            "type": "standard-column",
+            "attributes": {
+              "width": "50%"
+            },
+            "data": {},
+            "children": [
+              {
+                "name": "Text",
+                "type": "standard-h4",
+                "data": {},
+                "attributes": {
+                  "align": "left",
+                  "padding-left": "0px",
+                  "padding-right": "0px"
+                },
+                "children": [
+                  {
+                    "text": "Be the first to hear about special offers"
+                  }
+                ]
+              },
+              {
+                "name": "Text",
+                "type": "standard-paragraph",
+                "data": {},
+                "attributes": {
+                  "align": "left",
+                  "padding-top": "30px",
+                  "padding-left": "0px",
+                  "padding-right": "0px"
+                },
+                "children": [
+                  {
+                    "text": "Text "
+                  },
+                  {
+                    "text": "CLEAN",
+                    "bold": true
+                  },
+                  {
+                    "text": " to 555-555-5555"
+                  },
+                  {
+                    "type": "line-break",
+                    "data": {},
+                    "attributes": {},
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "text": "or fill out our sign up form."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "standard-column",
+            "attributes": {
+              "width": "50%"
+            },
+            "data": {},
+            "children": [
+              {
+                "type": "standard-image",
+                "data": {},
+                "attributes": {
+                  "padding-top": "0px",
+                  "padding-bottom": "0px",
+                  "padding-left": "0px",
+                  "padding-right": "0px",
+                  "width": "205px",
+                  "src": "http://res.cloudinary.com/dwkp0e1yo/image/upload/v1685977393/beacas-test/yntpxbqnbighiyycha6x.png"
+                },
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ],
+                "mobileAttributes": {
+                  "padding-top": "30px",
+                  "padding-bottom": "30px"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "standard-section",
+        "data": {},
+        "attributes": {
+          "background-color": "#FFFFFF"
+        },
+        "children": [
+          {
+            "type": "standard-column",
+            "attributes": {
+              "width": "100%"
+            },
+            "data": {},
+            "children": [
+              {
+                "name": "Text",
+                "type": "standard-paragraph",
+                "data": {},
+                "attributes": {},
+                "children": [
+                  {
+                    "text": "No longer want to receive these emails? "
+                  },
+                  {
+                    "text": "unsubscribe",
+                    "bold": true,
+                    "underline": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "attributes": {
+      "background-color": "#636262"
+    }
+  }
+}

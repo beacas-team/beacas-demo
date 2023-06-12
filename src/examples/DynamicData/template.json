@@ -1,0 +1,151 @@
+{
+  "subject": "Dynamic data demo",
+  "content": {
+    "data": {
+      "fonts": [
+        {
+          "href": "https://fonts.googleapis.com/css?family=Tangerine",
+          "name": "Tangerine"
+        }
+      ],
+      "breakpoint": "480px",
+      "blockAttributes": {
+        "standard-paragraph": {
+          "padding-right": "2px",
+          "padding-bottom": "3px"
+        }
+      },
+      "classAttributes": {},
+      "globalAttributes": {},
+      "categoryAttributes": {
+        "BUTTON": { "padding-right": "25px", "padding-bottom": "10px" }
+      }
+    },
+    "type": "page",
+    "children": [
+      {
+        "type": "standard-section",
+        "data": {},
+        "attributes": { "padding-bottom": "10px", "padding-right": "25px" },
+        "children": [
+          {
+            "type": "standard-column",
+            "data": {},
+            "attributes": {},
+            "children": [
+              {
+                "name": "Text",
+                "type": "standard-paragraph",
+                "data": {},
+                "attributes": {
+                  "padding-bottom": "3px",
+                  "padding-right": "2px",
+                  "font-size": "24px"
+                },
+                "children": [
+                  { "text": "Hello " },
+                  {
+                    "type": "mergetag",
+                    "data": {},
+                    "attributes": {},
+                    "children": [{ "text": "customer.name" }]
+                  },
+                  { "text": " , here is your order" }
+                ]
+              },
+              {
+                "name": "Text",
+                "type": "standard-paragraph",
+                "data": {},
+                "attributes": {
+                  "padding-bottom": "3px",
+                  "padding-right": "2px",
+                  "font-size": "24px",
+                  "align": "left"
+                },
+                "children": [
+                  { "text": "Order number: " },
+                  {
+                    "type": "mergetag",
+                    "data": {},
+                    "attributes": {},
+                    "children": [{ "text": "order.number" }]
+                  },
+                  { "text": " " },
+                  {
+                    "type": "line-break",
+                    "children": [{ "text": "" }],
+                    "data": {},
+                    "attributes": {}
+                  },
+                  { "text": "Order price: " },
+                  {
+                    "type": "mergetag",
+                    "data": {},
+                    "attributes": {},
+                    "children": [{ "text": "order.total" }]
+                  },
+                  { "text": " " }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "standard-section",
+        "data": {},
+        "attributes": { "padding-bottom": "10px", "padding-right": "25px" },
+        "children": [
+          {
+            "type": "standard-column",
+            "attributes": { "width": "100%" },
+            "data": {},
+            "children": [
+              {
+                "type": "standard-image",
+                "data": {},
+                "attributes": {
+                  "padding": "0px 0px 0px 0px",
+                  "padding-bottom": "0px",
+                  "padding-right": "0px",
+                  "src": "{{item.image}}"
+                },
+                "children": [{ "text": "" }]
+              },
+              {
+                "name": "Text",
+                "type": "standard-paragraph",
+                "data": {},
+                "attributes": {
+                  "padding-bottom": "3px",
+                  "padding-right": "2px"
+                },
+                "children": [{ "text": "{{item.title}}" }]
+              }
+            ]
+          }
+        ],
+        "mobileAttributes": {
+          "padding-bottom": "10px",
+          "padding-right": "25px"
+        },
+        "logic": {
+          "iteration": {
+            "enabled": true,
+            "dataSource": "products",
+            "itemName": "item",
+            "limit": 9999,
+            "mockQuantity": 1
+          }
+        }
+      }
+    ],
+    "attributes": {
+      "width": "600px",
+
+      "background-color": "#f3f2f2",
+      "content-background-color": "#FFFFFF"
+    }
+  }
+}

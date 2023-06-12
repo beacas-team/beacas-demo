@@ -1,0 +1,176 @@
+{
+  "subject": "Frozen Header & Footer",
+  "content": {
+    "data": {
+      "fonts": [
+        {
+          "href": "https://fonts.googleapis.com/css?family=Tangerine",
+          "name": "Tangerine"
+        }
+      ],
+      "breakpoint": "480px",
+      "blockAttributes": {
+        "standard-paragraph": {
+          "padding-right": "2px",
+          "padding-bottom": "3px"
+        }
+      },
+      "classAttributes": {},
+      "globalAttributes": {},
+      "categoryAttributes": {
+        "BUTTON": { "padding-right": "25px", "padding-bottom": "10px" }
+      }
+    },
+    "type": "page",
+    "children": [
+      {
+        "type": "raw",
+        "data": {
+          "content": "<div style=\"background:#FFFFFF;background-color:#FFFFFF;margin:0px auto;border-radius:0px;max-width:600px;\"><table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"background:#FFFFFF;background-color:#FFFFFF;width:100%;border-radius:0px;\">  <tbody><tr>  <td style=\"direction:ltr;font-size:0px;padding:20px 0;padding-bottom:10px;padding-left:25px;padding-right:25px;padding-top:10px;text-align:center;\"> <!--[if mso | IE]><table role=\"presentation\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td class=\"\" style=\"vertical-align:top;width:550px;\" ><![endif]--><div class=\"mj-column-per-100 mj-outlook-group-fix\" style=\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\">  <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"vertical-align:top;\" width=\"100%\"><tbody>  <tr><td align=\"center\" style=\"font-size:0px;padding:10px 25px;padding-top:3px;padding-right:2px;padding-bottom:3px;padding-left:2px;word-break:break-word;\">  <div style=\"font-family:Arial;font-size:16px;font-weight:normal;letter-spacing:0px;line-height:130%;text-align:center;color:#000000;\"><span>Frozen Header</span></div></td>  </tr></tbody>  </table></div> <!--[if mso | IE]></td></tr></table><![endif]-->  </td></tr>  </tbody></table></div>"
+        },
+        "attributes": {},
+        "children": [{ "text": "" }]
+      },
+      {
+        "type": "standard-section",
+        "data": {},
+        "attributes": {
+          "padding-bottom": "10px",
+          "padding-right": "20px",
+          "background-color": "#CDD2DA",
+          "padding-left": "20px"
+        },
+        "children": [
+          {
+            "type": "standard-column",
+            "attributes": { "width": "100%" },
+            "data": {},
+            "children": [
+              {
+                "name": "Text",
+                "type": "standard-paragraph",
+                "data": {},
+                "attributes": {
+                  "padding-bottom": "3px",
+                  "padding-right": "2px",
+                  "align": "left",
+                  "color": "#FFFFFF"
+                },
+                "children": [{ "text": "Terms and Condition" }]
+              },
+              {
+                "name": "Text",
+                "type": "standard-paragraph",
+                "data": {},
+                "attributes": {
+                  "padding-bottom": "3px",
+                  "padding-right": "2px",
+                  "align": "left",
+                  "color": "#FFFFFF"
+                },
+                "children": [
+                  {
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur elit velit, vel elementum felis condimentum nec. Phasellus dignissim erat ac orci consequat tempor. Aliquam sed nisl id erat dictum accumsan. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed tincidunt eros dolor, eu euismod augue blandit et. Pellentesque gravida arcu elit, sit amet vestibulum massa lobortis vel. Vestibulum id sagittis neque."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "standard-section",
+        "data": {},
+        "attributes": {
+          "padding-bottom": "10px",
+          "padding-right": "0px",
+          "padding-left": "0px"
+        },
+        "children": [
+          {
+            "type": "standard-column",
+            "data": {},
+            "attributes": {},
+            "children": [
+              {
+                "type": "standard-image",
+                "data": {},
+                "attributes": {
+                  "padding": "0px 0px 0px 0px",
+                  "padding-bottom": "0px",
+                  "padding-right": "0px",
+                  "src": "http://res.cloudinary.com/dfite2e16/image/upload/v1682341762/beacas/ftwn32fhyholn4c9jpxs.png",
+                  "width": "150px"
+                },
+                "children": [{ "text": "" }],
+                "mobileAttributes": {}
+              },
+              {
+                "type": "standard-navbar",
+                "data": {
+                  "list": [
+                    { "href": "", "content": "Home" },
+                    { "href": "", "content": "Home1" },
+                    { "href": "", "content": "Home2" },
+                    { "href": "", "content": "About" },
+                    { "href": "", "content": "Contact" },
+                    { "href": "", "content": "Blog" }
+                  ]
+                },
+                "attributes": {
+                  "padding-bottom": "10px",
+                  "padding-right": "25px",
+                  "color": "#083B66",
+                  "spacing": "30px"
+                },
+                "children": [{ "text": "" }]
+              }
+            ]
+          }
+        ],
+        "mobileAttributes": { "padding-bottom": "10px", "padding-right": "0px" }
+      },
+      {
+        "type": "standard-section",
+        "data": {},
+        "attributes": {
+          "padding-bottom": "0px",
+          "padding-right": "0px",
+          "padding-left": "0px",
+          "padding-top": "0px"
+        },
+        "children": [
+          {
+            "type": "standard-column",
+            "attributes": { "width": "100%" },
+            "data": {},
+            "children": [
+              {
+                "type": "standard-divider",
+                "data": {},
+                "attributes": {
+                  "padding-bottom": "0px",
+                  "padding-right": "0px"
+                },
+                "children": [{ "text": "" }]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "raw",
+        "data": {
+          "content": "<div style=\"background:#FFFFFF;background-color:#FFFFFF;margin:0px auto;border-radius:0px;max-width:600px;\"><table align=\"center\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"background:#FFFFFF;background-color:#FFFFFF;width:100%;border-radius:0px;\">  <tbody><tr>  <td style=\"direction:ltr;font-size:0px;padding:20px 0;padding-bottom:10px;padding-left:25px;padding-right:25px;padding-top:10px;text-align:center;\"> <!--[if mso | IE]><table role=\"presentation\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\"><tr><td class=\"\" style=\"vertical-align:top;width:550px;\" ><![endif]--><div class=\"mj-column-per-100 mj-outlook-group-fix\" style=\"font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;\">  <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" role=\"presentation\" style=\"vertical-align:top;\" width=\"100%\"><tbody>  <tr><td align=\"center\" style=\"font-size:0px;padding:10px 25px;padding-top:3px;padding-right:2px;padding-bottom:3px;padding-left:2px;word-break:break-word;\">  <div style=\"font-family:Arial;font-size:16px;font-weight:normal;letter-spacing:0px;line-height:130%;text-align:center;color:#000000;\"><span>Frozen Footer</span></div></td>  </tr></tbody>  </table></div> <!--[if mso | IE]></td></tr></table><![endif]-->  </td></tr>  </tbody></table></div>"
+        },
+        "attributes": {},
+        "children": [{ "text": "" }]
+      }
+    ],
+    "attributes": {
+      "width": "600px",
+      "background-color": "#f3f2f2",
+      "content-background-color": "#FFFFFF"
+    }
+  }
+}

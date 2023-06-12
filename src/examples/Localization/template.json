@@ -1,0 +1,348 @@
+{
+  "subject": "Simple demo",
+  "content": {
+    "data": {
+      "fonts": [
+        {
+          "href": "https://fonts.googleapis.com/css?family=Tangerine",
+          "name": "Tangerine"
+        }
+      ],
+      "breakpoint": "480px",
+      "blockAttributes": {
+        "standard-paragraph": {
+          "padding-right": "2px",
+          "padding-bottom": "3px"
+        }
+      },
+      "classAttributes": {},
+      "globalAttributes": {},
+      "categoryAttributes": {
+        "BUTTON": { "padding-right": "25px", "padding-bottom": "10px" }
+      }
+    },
+    "type": "page",
+    "children": [
+      {
+        "type": "standard-section",
+        "data": {},
+        "attributes": {
+          "padding-bottom": "10px",
+          "padding-right": "0px",
+          "padding-left": "0px"
+        },
+        "children": [
+          {
+            "type": "standard-column",
+            "data": {},
+            "attributes": {},
+            "children": [
+              {
+                "type": "standard-image",
+                "data": {},
+                "attributes": {
+                  "padding": "0px 0px 0px 0px",
+                  "padding-bottom": "0px",
+                  "padding-right": "0px",
+                  "src": "http://res.cloudinary.com/dfite2e16/image/upload/v1682341762/beacas/ftwn32fhyholn4c9jpxs.png",
+                  "width": "150px"
+                },
+                "children": [{ "text": "" }],
+                "mobileAttributes": {
+                  "padding-bottom": "0px",
+                  "padding-right": "0px"
+                }
+              },
+              {
+                "type": "standard-navbar",
+                "data": {
+                  "list": [
+                    { "href": "", "content": "Home" },
+                    { "href": "", "content": "Home1" },
+                    { "href": "", "content": "Home2" },
+                    { "href": "", "content": "About" },
+                    { "href": "", "content": "Contact" },
+                    { "href": "", "content": "Blog" }
+                  ]
+                },
+                "attributes": {
+                  "padding-bottom": "10px",
+                  "padding-right": "25px",
+                  "color": "#083B66",
+                  "spacing": "30px"
+                },
+                "children": [{ "text": "" }]
+              },
+              {
+                "type": "standard-image",
+                "data": {},
+                "attributes": {
+                  "padding": "0px 0px 0px 0px",
+                  "padding-bottom": "0px",
+                  "padding-right": "0px",
+                  "src": "https://d3k81ch9hvuctc.cloudfront.net/company/HVWFFa/images/c100a7b2-f155-48d2-aafc-71177b3a804d.jpeg"
+                },
+                "children": [{ "text": "" }]
+              },
+              {
+                "name": "Text",
+                "type": "standard-h1",
+                "data": {},
+                "attributes": {
+                  "padding-bottom": "3px",
+                  "padding-right": "2px",
+                  "color": "#9ec5f7"
+                },
+                "children": [{ "text": "Time for A Vacation" }]
+              },
+              {
+                "name": "Text",
+                "type": "standard-paragraph",
+                "data": {},
+                "attributes": {
+                  "padding-bottom": "3px",
+                  "padding-right": "2px",
+                  "color": "#9b9b9b"
+                },
+                "children": [
+                  {
+                    "text": "This is where you can put your most important content. The thing you don't want any one to miss. Maybe you need to link to something. Whether it's an important announcement, new products, or services or letting people know about a special promotion. With Klaviyo, you're covered. Happy emailing!"
+                  }
+                ]
+              },
+              {
+                "type": "standard-button",
+                "data": { "content": "Button" },
+                "attributes": {
+                  "inner-padding-bottom": "14px",
+                  "inner-padding-right": "50px",
+                  "padding-bottom": "10px",
+                  "padding-right": "25px",
+                  "background-color": "#9ec5f7",
+                  "border-radius": "0px",
+                  "inner-padding-left": "50px",
+                  "inner-padding-top": "14px",
+                  "font-size": "15px"
+                },
+                "children": [{ "text": "Learn More" }]
+              }
+            ]
+          }
+        ],
+        "mobileAttributes": { "padding-bottom": "10px", "padding-right": "0px" }
+      },
+      {
+        "type": "standard-section",
+        "data": {},
+        "attributes": {
+          "padding-bottom": "0px",
+          "padding-right": "0px",
+          "padding-left": "0px",
+          "padding-top": "0px"
+        },
+        "children": [
+          {
+            "type": "standard-column",
+            "attributes": { "width": "100%" },
+            "data": {},
+            "children": [
+              {
+                "type": "standard-divider",
+                "data": {},
+                "attributes": {
+                  "padding-bottom": "0px",
+                  "padding-right": "0px"
+                },
+                "children": [{ "text": "" }]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "standard-section",
+        "data": {},
+        "attributes": {
+          "padding-bottom": "0px",
+          "padding-right": "0px",
+          "padding-left": "0px",
+          "padding-top": "0px"
+        },
+        "children": [
+          {
+            "type": "standard-column",
+            "attributes": { "width": "50%", "vertical-align": "top" },
+            "data": {},
+            "children": [
+              {
+                "name": "Text",
+                "type": "standard-paragraph",
+                "data": {},
+                "attributes": {
+                  "padding-bottom": "10px",
+                  "padding-right": "2px",
+                  "container-background-color": "#DCE9FB",
+                  "font-size": "24px",
+                  "line-height": "150%",
+                  "padding-top": "10px"
+                },
+                "children": [{ "text": "Flying with Us" }]
+              },
+              {
+                "type": "standard-image",
+                "data": {},
+                "attributes": {
+                  "padding": "0px 0px 0px 0px",
+                  "padding-bottom": "0px",
+                  "padding-right": "0px",
+                  "src": "https://d3k81ch9hvuctc.cloudfront.net/company/HVWFFa/images/af2dc079-c15e-418a-8a5d-4c8029ea44e1.jpeg"
+                },
+                "children": [{ "text": "" }]
+              },
+              {
+                "type": "standard-button",
+                "data": { "content": "Button" },
+                "attributes": {
+                  "inner-padding-bottom": "17px",
+                  "inner-padding-right": "35px",
+                  "padding-bottom": "10px",
+                  "padding-right": "25px",
+                  "background-color": "#9ec5f7",
+                  "inner-padding-left": "35px",
+                  "font-size": "16px",
+                  "border-radius": "0px",
+                  "container-background-color": "#DCE9FB",
+                  "inner-padding-top": "17px"
+                },
+                "children": [{ "text": "Learn More" }]
+              }
+            ]
+          },
+          {
+            "type": "standard-column",
+            "attributes": { "width": "50%", "vertical-align": "top" },
+            "data": {},
+            "children": [
+              {
+                "type": "standard-image",
+                "data": {},
+                "attributes": {
+                  "padding": "0px 0px 0px 0px",
+                  "padding-bottom": "0px",
+                  "padding-right": "0px",
+                  "src": "https://d3k81ch9hvuctc.cloudfront.net/company/HVWFFa/images/03ebbe0a-e673-4220-9349-6138c5378179.jpeg"
+                },
+                "children": [{ "text": "" }]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "standard-section",
+        "data": {},
+        "attributes": {
+          "padding-bottom": "10px",
+          "padding-right": "0px",
+          "padding-left": "0px"
+        },
+        "children": [
+          {
+            "type": "standard-column",
+            "attributes": { "width": "100%" },
+            "data": {},
+            "children": [
+              {
+                "type": "standard-social",
+                "data": {
+                  "list": [
+                    {
+                      "src": "https://d3k81ch9hvuctc.cloudfront.net/assets/email/buttons/subtle/facebook_96.png",
+                      "href": "",
+                      "content": ""
+                    },
+                    {
+                      "src": "https://d3k81ch9hvuctc.cloudfront.net/assets/email/buttons/subtle/twitter_96.png",
+                      "href": "",
+                      "content": ""
+                    },
+                    {
+                      "src": "https://d3k81ch9hvuctc.cloudfront.net/assets/email/buttons/subtle/linkedin_96.png",
+                      "href": "",
+                      "content": ""
+                    },
+                    {
+                      "src": "https://d3k81ch9hvuctc.cloudfront.net/assets/email/buttons/subtle/instagram_96.png",
+                      "href": "",
+                      "content": ""
+                    }
+                  ]
+                },
+                "attributes": {
+                  "icon-size": "35px",
+                  "padding-top": "0px",
+                  "padding-bottom": "0px",
+                  "padding-left": "0px",
+                  "padding-right": "0px"
+                },
+                "children": [{ "text": "" }]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "standard-section",
+        "data": {},
+        "attributes": {
+          "padding-bottom": "10px",
+          "padding-right": "20px",
+          "background-color": "#CDD2DA",
+          "padding-left": "20px"
+        },
+        "children": [
+          {
+            "type": "standard-column",
+            "attributes": { "width": "100%" },
+            "data": {},
+            "children": [
+              {
+                "name": "Text",
+                "type": "standard-paragraph",
+                "data": {},
+                "attributes": {
+                  "padding-bottom": "3px",
+                  "padding-right": "2px",
+                  "align": "left",
+                  "color": "#FFFFFF"
+                },
+                "children": [{ "text": "Terms and Condition" }]
+              },
+              {
+                "name": "Text",
+                "type": "standard-paragraph",
+                "data": {},
+                "attributes": {
+                  "padding-bottom": "3px",
+                  "padding-right": "2px",
+                  "align": "left",
+                  "color": "#FFFFFF"
+                },
+                "children": [
+                  {
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur elit velit, vel elementum felis condimentum nec. Phasellus dignissim erat ac orci consequat tempor. Aliquam sed nisl id erat dictum accumsan. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed tincidunt eros dolor, eu euismod augue blandit et. Pellentesque gravida arcu elit, sit amet vestibulum massa lobortis vel. Vestibulum id sagittis neque."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "attributes": {
+      "width": "600px",
+      "background-color": "#f3f2f2",
+      "content-background-color": "#FFFFFF"
+    }
+  }
+}

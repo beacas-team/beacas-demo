@@ -1,0 +1,260 @@
+{
+  "id": 6,
+  "subject": "HAPPY BIRTHDAY",
+  "thumbnail": "http://res.cloudinary.com/dwkp0e1yo/image/upload/v1686019002/beacas-test/tzebngrahvcw9jpmmela.png",
+  "content": {
+    "data": {
+      "breakpoint": "480px"
+    },
+    "type": "page",
+    "children": [
+      {
+        "type": "standard-section",
+        "data": {},
+        "attributes": {},
+        "children": [
+          {
+            "type": "standard-column",
+            "data": {},
+            "attributes": {},
+            "children": [
+              {
+                "type": "standard-image",
+                "data": {},
+                "attributes": {
+                  "padding-top": "0px",
+                  "padding-bottom": "0px",
+                  "padding-left": "0px",
+                  "padding-right": "0px",
+                  "width": "66px",
+                  "src": "http://res.cloudinary.com/dwkp0e1yo/image/upload/v1686014389/beacas-test/blphoznccsjdzqymrg7h.png"
+                },
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "name": "Text",
+                "type": "standard-h2",
+                "data": {},
+                "attributes": {
+                  "color": "#580162"
+                },
+                "children": [
+                  {
+                    "text": "HAPPY BIRTHDAY"
+                  }
+                ]
+              },
+              {
+                "name": "Text",
+                "type": "standard-paragraph",
+                "data": {},
+                "attributes": {},
+                "children": [
+                  {
+                    "text": "We heard that it's your birthday! Do you know what that means?"
+                  },
+                  {
+                    "type": "line-break",
+                    "data": {},
+                    "attributes": {},
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Today is all about YOU! 🎉"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "standard-section",
+        "data": {},
+        "attributes": {
+          "background-image-enabled": true,
+          "background-url": "http://res.cloudinary.com/dwkp0e1yo/image/upload/v1686014869/beacas-test/ccunp7srvuz9akpbpzwf.png",
+          "background-position": "top left",
+          "border-enabled": false,
+          "border-style": "solid",
+          "background-size": "cover",
+          "padding-top": "50px",
+          "padding-bottom": "50px"
+        },
+        "children": [
+          {
+            "type": "standard-column",
+            "attributes": {
+              "width": "100%"
+            },
+            "data": {},
+            "children": [
+              {
+                "type": "standard-button",
+                "data": {
+                  "content": "Button"
+                },
+                "attributes": {
+                  "width": "100%",
+                  "background-color": "#FBE9FF",
+                  "border-enabled": true,
+                  "border-color": "#7B0494",
+                  "border-width": "5px",
+                  "border-style": "dashed",
+                  "color": "#000000",
+                  "font-weight": "400",
+                  "font-size": "32px",
+                  "inner-padding-top": "50px",
+                  "inner-padding-bottom": "50px"
+                },
+                "children": [
+                  {
+                    "text": "Coupon Code: TAKE20"
+                  }
+                ]
+              },
+              {
+                "type": "standard-button",
+                "data": {
+                  "content": "Button"
+                },
+                "attributes": {
+                  "background-color": "#580162",
+                  "font-weight": "bold",
+                  "padding-top": "20px",
+                  "padding-bottom": "20px"
+                },
+                "children": [
+                  {
+                    "text": "Use your code"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "standard-section",
+        "data": {},
+        "attributes": {},
+        "children": [
+          {
+            "type": "standard-column",
+            "attributes": {
+              "width": "100%"
+            },
+            "data": {},
+            "children": [
+              {
+                "type": "standard-social",
+                "data": {},
+                "attributes": {
+                  "icon-size": "30px",
+                  "spacing": "10px"
+                },
+                "children": [
+                  {
+                    "data": {},
+                    "type": "standard-social-element",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "attributes": {
+                      "src": "https://res.cloudinary.com/dfite2e16/image/upload/v1681908489/clgnivsuj0018z9ltiixmxf6k/xkd0kfnytbfywsofk8t6.png",
+                      "href": "",
+                      "padding-left": "0px",
+                      "padding-right": "0px",
+                      "padding-top": "0px",
+                      "padding-bottom": "0px"
+                    }
+                  },
+                  {
+                    "data": {},
+                    "type": "standard-social-element",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "attributes": {
+                      "src": "https://res.cloudinary.com/dfite2e16/image/upload/v1681908521/clgnivsuj0018z9ltiixmxf6k/ulyduaza1votoacctoi3.png",
+                      "href": "",
+                      "padding-right": "0px",
+                      "padding-top": "0px",
+                      "padding-bottom": "0px",
+                      "padding-left": "10px"
+                    }
+                  },
+                  {
+                    "data": {},
+                    "type": "standard-social-element",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "attributes": {
+                      "src": "https://res.cloudinary.com/dfite2e16/image/upload/v1681908543/clgnivsuj0018z9ltiixmxf6k/wtefhsfwaapcdbz7knqw.png",
+                      "href": "",
+                      "padding-right": "0px",
+                      "padding-top": "0px",
+                      "padding-bottom": "0px",
+                      "padding-left": "10px"
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "standard-divider",
+                "data": {},
+                "attributes": {
+                  "border-width": "1px",
+                  "border-style": "solid",
+                  "border-color": "#C9CCCF",
+                  "padding-left": "0px",
+                  "padding-right": "0px"
+                },
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "name": "Text",
+                "type": "standard-paragraph",
+                "data": {},
+                "attributes": {},
+                "children": [
+                  {
+                    "text": "No longer want to receive these emails? "
+                  },
+                  {
+                    "text": "unsubscribe",
+                    "italic": true,
+                    "underline": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "attributes": {
+      "background-color": "#AFAFF8",
+      "content-background-color": "#FFFFFF"
+    }
+  }
+}

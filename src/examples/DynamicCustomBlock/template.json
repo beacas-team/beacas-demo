@@ -1,0 +1,126 @@
+{
+  "subject": "Dynamic custom block",
+  "content": {
+    "data": {
+      "fonts": [
+        {
+          "href": "https://fonts.googleapis.com/css?family=Tangerine",
+          "name": "Tangerine"
+        }
+      ],
+      "breakpoint": "480px",
+      "blockAttributes": {
+        "standard-paragraph": {
+          "padding-right": "2px",
+          "padding-bottom": "3px"
+        }
+      },
+      "classAttributes": {},
+      "globalAttributes": {},
+      "categoryAttributes": {
+        "BUTTON": { "padding-right": "25px", "padding-bottom": "10px" }
+      }
+    },
+    "type": "page",
+    "children": [
+      {
+        "type": "standard-section",
+        "data": {},
+        "attributes": {
+          "padding-bottom": "10px",
+          "padding-right": "0px",
+          "padding-left": "0px"
+        },
+        "children": [
+          {
+            "type": "standard-column",
+            "data": {},
+            "attributes": {},
+            "children": [
+              {
+                "type": "standard-image",
+                "data": {},
+                "attributes": {
+                  "padding": "0px 0px 0px 0px",
+                  "padding-bottom": "0px",
+                  "padding-right": "0px",
+                  "src": "http://res.cloudinary.com/dfite2e16/image/upload/v1682341762/beacas/ftwn32fhyholn4c9jpxs.png",
+                  "width": "150px"
+                },
+                "children": [{ "text": "" }],
+                "mobileAttributes": {
+                  "padding-bottom": "0px",
+                  "padding-right": "0px"
+                }
+              },
+              {
+                "type": "standard-navbar",
+                "data": {
+                  "list": [
+                    { "href": "", "content": "Home" },
+                    { "href": "", "content": "Home1" },
+                    { "href": "", "content": "Home2" },
+                    { "href": "", "content": "About" },
+                    { "href": "", "content": "Contact" },
+                    { "href": "", "content": "Blog" }
+                  ]
+                },
+                "attributes": {
+                  "padding-bottom": "10px",
+                  "padding-right": "25px",
+                  "color": "#083B66",
+                  "spacing": "30px"
+                },
+                "children": [{ "text": "" }]
+              }
+            ]
+          }
+        ],
+        "mobileAttributes": { "padding-bottom": "10px", "padding-right": "0px" }
+      },
+      {
+        "type": "dynamic_custom_block",
+        "data": {
+          "title": "You might also like",
+          "buttonText": "Buy now",
+          "quantity": 6,
+          "type": "products",
+          "productIds": ["13", "12"],
+          "collectionIds": [],
+          "showComparePrice": true
+        },
+        "attributes": {
+          "background-color": "#ffffff",
+          "button-text-color": "#ffffff",
+          "button-color": "#000000",
+          "product-name-color": "#000000",
+          "product-price-color": "#000000",
+          "product-compare-price-color": "#737373",
+          "title-color": "#222222",
+          "image-border-radius": "5px",
+          "image-width": "150px",
+          "padding-top": "20px",
+          "padding-bottom": "20px",
+          "padding-left": "10px",
+          "padding-right": "10px",
+          "heading-padding": "10px 25px 10px 25px",
+          "padding": { "padding-bottom": "20px", "padding-right": "0px" }
+        },
+        "children": [
+          {
+            "type": "standard-h3",
+            "data": {},
+            "attributes": {},
+            "children": [{ "text": "You might also like" }]
+          }
+        ]
+      }
+    ],
+    "attributes": {
+      "width": "600px",
+
+      "background-color": "#f3f2f2",
+      "content-background-color": "#FFFFFF"
+    }
+  }
+}

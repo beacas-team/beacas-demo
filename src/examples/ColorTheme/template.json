@@ -1,0 +1,139 @@
+{
+  "subject": "Blank",
+  "content": {
+    "data": { "breakpoint": "480px" },
+    "type": "page",
+    "children": [
+      {
+        "type": "standard-section",
+        "data": {},
+        "attributes": {},
+        "children": [
+          {
+            "type": "standard-column",
+            "data": {},
+            "attributes": {},
+            "children": [
+              {
+                "type": "standard-image",
+                "data": {},
+                "attributes": {
+                  "padding": "0px 0px 0px 0px",
+                  "width": "66px",
+                  "src": "http://res.cloudinary.com/dwkp0e1yo/image/upload/v1685699281/beacas-test/aurzjwmewld2n4z4mq4f.png"
+                },
+                "children": [{ "text": "" }]
+              },
+              {
+                "type": "standard-image",
+                "data": {},
+                "attributes": {
+                  "padding": "0px 0px 0px 0px",
+                  "src": "http://res.cloudinary.com/dwkp0e1yo/image/upload/v1685699319/beacas-test/urlk2f423ufuio3xfcnf.png",
+                  "padding-left": "0px",
+                  "padding-right": "0px",
+                  "padding-top": "0px",
+                  "padding-bottom": "0px"
+                },
+                "children": [{ "text": "" }]
+              },
+              {
+                "name": "Text",
+                "type": "standard-h1",
+                "data": {},
+                "attributes": {
+                  "font-weight": "500",
+                  "padding-top": "20px",
+                  "padding-bottom": "20px",
+                  "align": "left",
+                  "padding-left": "20px",
+                  "padding-right": "20px"
+                },
+                "children": [
+                  { "text": "This time of the year" },
+                  {
+                    "type": "line-break",
+                    "data": {},
+                    "attributes": {},
+                    "children": [{ "text": "" }]
+                  },
+                  { "text": "can be difficult." }
+                ]
+              },
+              {
+                "name": "Text",
+                "type": "standard-paragraph",
+                "data": {},
+                "attributes": {
+                  "align": "left",
+                  "padding-left": "20px",
+                  "padding-right": "20px"
+                },
+                "children": [
+                  { "text": "Hi friends," },
+                  {
+                    "type": "line-break",
+                    "data": {},
+                    "attributes": {},
+                    "children": [{ "text": "" }]
+                  },
+                  { "text": "" },
+                  {
+                    "type": "line-break",
+                    "data": {},
+                    "attributes": {},
+                    "children": [{ "text": "" }]
+                  },
+                  {
+                    "text": "We know Father's Day can be a sensitive time for many of us. If you'd prefer not to receive any Father's Day emails from us, you can opt out of them here."
+                  },
+                  {
+                    "type": "line-break",
+                    "data": {},
+                    "attributes": {},
+                    "children": [{ "text": "" }]
+                  },
+                  { "text": "" },
+                  {
+                    "type": "line-break",
+                    "data": {},
+                    "attributes": {},
+                    "children": [{ "text": "" }]
+                  },
+                  {
+                    "text": "Don't fret, you'll still be up to date on everything else."
+                  },
+                  {
+                    "type": "line-break",
+                    "data": {},
+                    "attributes": {},
+                    "children": [{ "text": "" }]
+                  },
+                  { "text": "" },
+                  {
+                    "type": "line-break",
+                    "data": {},
+                    "attributes": {},
+                    "children": [{ "text": "" }]
+                  },
+                  { "text": "Love," },
+                  {
+                    "type": "line-break",
+                    "data": {},
+                    "attributes": {},
+                    "children": [{ "text": "" }]
+                  },
+                  { "text": "the Beacas team" }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "attributes": {
+      "content-background-color": "#FFFFFF",
+      "background-color": "#f5f5f5"
+    }
+  }
+}

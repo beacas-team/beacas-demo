@@ -1,0 +1,689 @@
+{
+  "id": 7,
+  "subject": "See some of our BEST recipes.",
+  "thumbnail": "http://res.cloudinary.com/dwkp0e1yo/image/upload/v1686018927/beacas-test/mg8omhesvhxwzpv2sq7m.png",
+  "content": {
+    "data": {
+      "breakpoint": "480px"
+    },
+    "type": "page",
+    "children": [
+      {
+        "type": "standard-section",
+        "data": {},
+        "attributes": {},
+        "children": [
+          {
+            "type": "standard-column",
+            "data": {},
+            "attributes": {},
+            "children": [
+              {
+                "type": "standard-image",
+                "data": {},
+                "attributes": {
+                  "padding-top": "0px",
+                  "padding-bottom": "0px",
+                  "padding-left": "0px",
+                  "padding-right": "0px",
+                  "src": "http://res.cloudinary.com/dwkp0e1yo/image/upload/v1686014389/beacas-test/blphoznccsjdzqymrg7h.png",
+                  "width": "66px"
+                },
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "standard-section",
+        "data": {},
+        "attributes": {
+          "background-repeat": "no-repeat"
+        },
+        "children": [
+          {
+            "type": "standard-column",
+            "attributes": {
+              "width": "100%"
+            },
+            "data": {},
+            "children": [
+              {
+                "type": "standard-image",
+                "data": {},
+                "attributes": {
+                  "padding-top": "0px",
+                  "padding-bottom": "0px",
+                  "padding-left": "0px",
+                  "padding-right": "0px",
+                  "src": "http://res.cloudinary.com/dwkp0e1yo/image/upload/v1686018178/beacas-test/tma3bgatf23cl8gc64hf.png"
+                },
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              },
+              {
+                "name": "Text",
+                "type": "standard-h3",
+                "data": {},
+                "attributes": {
+                  "padding-top": "10px",
+                  "padding-bottom": "10px"
+                },
+                "children": [
+                  {
+                    "text": "See some of our BEST recipes."
+                  }
+                ]
+              },
+              {
+                "name": "Text",
+                "type": "standard-paragraph",
+                "data": {},
+                "attributes": {
+                  "align": "left",
+                  "font-size": "14px",
+                  "color": "#878282"
+                },
+                "children": [
+                  {
+                    "text": "This is where you can put your most important content. The thing you don't want any one to miss. Maybe you need to "
+                  },
+                  {
+                    "text": "link to something",
+                    "color": "#d39031"
+                  },
+                  {
+                    "text": ". Whether it's an important announcement, new products or services, or letting people know about a special promotion. With Klaviyo, you're covered. Happy emailing!"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "standard-section",
+        "data": {},
+        "attributes": {
+          "background-repeat": "no-repeat",
+          "padding-left": "20px",
+          "padding-right": "20px",
+          "padding-top": "0px",
+          "padding-bottom": "0px"
+        },
+        "children": [
+          {
+            "type": "standard-column",
+            "attributes": {
+              "width": "100%"
+            },
+            "data": {},
+            "children": [
+              {
+                "type": "standard-divider",
+                "data": {},
+                "attributes": {
+                  "border-width": "1px",
+                  "border-style": "solid",
+                  "border-color": "#C9CCCF",
+                  "padding-top": "10px",
+                  "padding-right": "0px",
+                  "padding-bottom": "10px",
+                  "padding-left": "0px"
+                },
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "standard-section",
+        "data": {},
+        "attributes": {
+          "background-repeat": "no-repeat",
+          "padding-left": "20px",
+          "padding-right": "20px"
+        },
+        "children": [
+          {
+            "type": "standard-column",
+            "attributes": {
+              "width": "33%"
+            },
+            "data": {},
+            "children": [
+              {
+                "type": "standard-image",
+                "data": {},
+                "attributes": {
+                  "padding-top": "0px",
+                  "padding-bottom": "0px",
+                  "padding-left": "0px",
+                  "padding-right": "0px",
+                  "width": "300px",
+                  "src": "http://res.cloudinary.com/dwkp0e1yo/image/upload/v1686018375/beacas-test/ljzvm1bzxjtzcwp097yi.png",
+                  "fluid-on-mobile": "true"
+                },
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "standard-column",
+            "attributes": {
+              "width": "67%"
+            },
+            "data": {},
+            "children": [
+              {
+                "name": "Text",
+                "type": "standard-h3",
+                "data": {},
+                "attributes": {
+                  "align": "left"
+                },
+                "children": [
+                  {
+                    "text": "Mix Your Cocktail"
+                  }
+                ],
+                "mobileAttributes": {
+                  "padding-top": "20px"
+                }
+              },
+              {
+                "name": "Text",
+                "type": "standard-paragraph",
+                "data": {},
+                "attributes": {
+                  "align": "left",
+                  "font-size": "14px",
+                  "padding-top": "10px"
+                },
+                "children": [
+                  {
+                    "text": "Add a line or two about what this story is about. "
+                  },
+                  {
+                    "text": "Read more",
+                    "color": "#d39031",
+                    "underline": true
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "standard-button",
+                "data": {
+                  "content": "Button"
+                },
+                "attributes": {
+                  "line-height": "130%",
+                  "background-color": "#FC8C26",
+                  "align": "left",
+                  "padding-left": "20px",
+                  "padding-right": "20px",
+                  "inner-padding-top": "10px",
+                  "padding-top": "30px"
+                },
+                "children": [
+                  {
+                    "text": "Learn More"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "standard-section",
+        "data": {},
+        "attributes": {
+          "background-repeat": "no-repeat",
+          "padding-left": "20px",
+          "padding-right": "20px",
+          "padding-top": "0px",
+          "padding-bottom": "0px"
+        },
+        "children": [
+          {
+            "type": "standard-column",
+            "attributes": {
+              "width": "100%"
+            },
+            "data": {},
+            "children": [
+              {
+                "type": "standard-divider",
+                "data": {},
+                "attributes": {
+                  "border-width": "1px",
+                  "border-style": "solid",
+                  "border-color": "#C9CCCF",
+                  "padding-top": "10px",
+                  "padding-right": "0px",
+                  "padding-bottom": "10px",
+                  "padding-left": "0px"
+                },
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "standard-section",
+        "data": {},
+        "attributes": {
+          "background-repeat": "no-repeat",
+          "padding-left": "20px",
+          "padding-right": "20px"
+        },
+        "children": [
+          {
+            "type": "standard-column",
+            "attributes": {
+              "width": "33%"
+            },
+            "data": {},
+            "children": [
+              {
+                "type": "standard-image",
+                "data": {},
+                "attributes": {
+                  "padding-top": "0px",
+                  "padding-bottom": "0px",
+                  "padding-left": "0px",
+                  "padding-right": "0px",
+                  "width": "300px",
+                  "src": "http://res.cloudinary.com/dwkp0e1yo/image/upload/v1686018683/beacas-test/lgnwdqbhviiwrffgldea.png",
+                  "fluid-on-mobile": "true"
+                },
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "standard-column",
+            "attributes": {
+              "width": "67%"
+            },
+            "data": {},
+            "children": [
+              {
+                "name": "Text",
+                "type": "standard-h3",
+                "data": {},
+                "attributes": {
+                  "align": "left"
+                },
+                "children": [
+                  {
+                    "text": "Start A Dinner For 2"
+                  }
+                ],
+                "mobileAttributes": {
+                  "padding-top": "20px"
+                }
+              },
+              {
+                "name": "Text",
+                "type": "standard-paragraph",
+                "data": {},
+                "attributes": {
+                  "align": "left",
+                  "font-size": "14px",
+                  "padding-top": "10px"
+                },
+                "children": [
+                  {
+                    "text": "Add a line or two about what this story is about. "
+                  },
+                  {
+                    "text": "Read more",
+                    "color": "#d39031",
+                    "underline": true
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "standard-button",
+                "data": {
+                  "content": "Button"
+                },
+                "attributes": {
+                  "line-height": "130%",
+                  "background-color": "#FC8C26",
+                  "align": "left",
+                  "padding-left": "20px",
+                  "padding-right": "20px",
+                  "inner-padding-top": "10px",
+                  "padding-top": "30px"
+                },
+                "children": [
+                  {
+                    "text": "Learn More"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "standard-section",
+        "data": {},
+        "attributes": {
+          "background-repeat": "no-repeat",
+          "padding-left": "20px",
+          "padding-right": "20px",
+          "padding-top": "0px",
+          "padding-bottom": "0px"
+        },
+        "children": [
+          {
+            "type": "standard-column",
+            "attributes": {
+              "width": "100%"
+            },
+            "data": {},
+            "children": [
+              {
+                "type": "standard-divider",
+                "data": {},
+                "attributes": {
+                  "border-width": "1px",
+                  "border-style": "solid",
+                  "border-color": "#C9CCCF",
+                  "padding-top": "10px",
+                  "padding-right": "0px",
+                  "padding-bottom": "10px",
+                  "padding-left": "0px"
+                },
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "standard-section",
+        "data": {},
+        "attributes": {
+          "background-repeat": "no-repeat",
+          "padding-left": "20px",
+          "padding-right": "20px"
+        },
+        "children": [
+          {
+            "type": "standard-column",
+            "attributes": {
+              "width": "33%"
+            },
+            "data": {},
+            "children": [
+              {
+                "type": "standard-image",
+                "data": {},
+                "attributes": {
+                  "padding-top": "0px",
+                  "padding-bottom": "0px",
+                  "padding-left": "0px",
+                  "padding-right": "0px",
+                  "width": "300px",
+                  "src": "http://res.cloudinary.com/dwkp0e1yo/image/upload/v1686018702/beacas-test/cutucq5qfx2x7wjswco7.png",
+                  "fluid-on-mobile": "true"
+                },
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "standard-column",
+            "attributes": {
+              "width": "67%"
+            },
+            "data": {},
+            "children": [
+              {
+                "name": "Text",
+                "type": "standard-h3",
+                "data": {},
+                "attributes": {
+                  "align": "left"
+                },
+                "children": [
+                  {
+                    "text": "Our Favorite Rasberry Cake"
+                  }
+                ],
+                "mobileAttributes": {
+                  "padding-top": "20px"
+                }
+              },
+              {
+                "name": "Text",
+                "type": "standard-paragraph",
+                "data": {},
+                "attributes": {
+                  "align": "left",
+                  "font-size": "14px",
+                  "padding-top": "10px"
+                },
+                "children": [
+                  {
+                    "text": "Add a line or two about what this story is about. "
+                  },
+                  {
+                    "text": "Read more",
+                    "color": "#d39031",
+                    "underline": true
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "standard-button",
+                "data": {
+                  "content": "Button"
+                },
+                "attributes": {
+                  "line-height": "130%",
+                  "background-color": "#FC8C26",
+                  "align": "left",
+                  "padding-left": "20px",
+                  "padding-right": "20px",
+                  "inner-padding-top": "10px",
+                  "padding-top": "30px"
+                },
+                "children": [
+                  {
+                    "text": "Learn More"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "standard-section",
+        "data": {},
+        "attributes": {
+          "background-repeat": "no-repeat",
+          "padding-top": "0px",
+          "padding-bottom": "0px"
+        },
+        "children": [
+          {
+            "type": "standard-column",
+            "attributes": {
+              "width": "100%"
+            },
+            "data": {},
+            "children": [
+              {
+                "type": "standard-image",
+                "data": {},
+                "attributes": {
+                  "padding-top": "0px",
+                  "padding-bottom": "0px",
+                  "padding-left": "0px",
+                  "padding-right": "0px",
+                  "src": "http://res.cloudinary.com/dwkp0e1yo/image/upload/v1686018733/beacas-test/tgra15f3kukktswj75ax.png"
+                },
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "standard-section",
+        "data": {},
+        "attributes": {
+          "background-repeat": "no-repeat"
+        },
+        "children": [
+          {
+            "type": "standard-column",
+            "attributes": {
+              "width": "100%"
+            },
+            "data": {},
+            "children": [
+              {
+                "type": "standard-social",
+                "data": {},
+                "attributes": {
+                  "icon-size": "30px",
+                  "spacing": "20px"
+                },
+                "children": [
+                  {
+                    "data": {},
+                    "type": "standard-social-element",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "attributes": {
+                      "src": "https://res.cloudinary.com/dfite2e16/image/upload/v1681908489/clgnivsuj0018z9ltiixmxf6k/xkd0kfnytbfywsofk8t6.png",
+                      "href": "",
+                      "padding-left": "0px",
+                      "padding-right": "0px",
+                      "padding-top": "0px",
+                      "padding-bottom": "0px"
+                    }
+                  },
+                  {
+                    "data": {},
+                    "type": "standard-social-element",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "attributes": {
+                      "src": "https://res.cloudinary.com/dfite2e16/image/upload/v1681908521/clgnivsuj0018z9ltiixmxf6k/ulyduaza1votoacctoi3.png",
+                      "href": "",
+                      "padding-left": "20px",
+                      "padding-right": "0px",
+                      "padding-top": "0px",
+                      "padding-bottom": "0px"
+                    }
+                  },
+                  {
+                    "data": {},
+                    "type": "standard-social-element",
+                    "children": [
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "attributes": {
+                      "src": "https://res.cloudinary.com/dfite2e16/image/upload/v1681908543/clgnivsuj0018z9ltiixmxf6k/wtefhsfwaapcdbz7knqw.png",
+                      "href": "",
+                      "padding-left": "20px",
+                      "padding-right": "0px",
+                      "padding-top": "0px",
+                      "padding-bottom": "0px"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "Text",
+                "type": "standard-paragraph",
+                "data": {},
+                "attributes": {},
+                "children": [
+                  {
+                    "text": "No longer want to receive these emails? "
+                  },
+                  {
+                    "text": "unsubscribe",
+                    "link": {
+                      "href": "#",
+                      "blank": true
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "attributes": {
+      "background-color": "#777777",
+      "content-background-color": "#ffffff"
+    }
+  }
+}

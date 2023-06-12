@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "types": ["vite/client","node"],
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "alwaysStrict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noUnusedLocals": false,
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "mjml-browser":["./node_modules/@types/mjml"],
+      // for development
+      "beacas-core": ["../packages/beacas-core"],
+      "beacas-plugins": ["../packages/beacas-plugins"],
+      "beacas-editor": ["../packages/beacas-editor"],
+    }
+  },
+  "include": ["./src"]
+}

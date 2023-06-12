@@ -1,0 +1,497 @@
+{
+  "id": 3,
+  "subject": "IS IT TIME TO REORDER?",
+  "thumbnail": "http://res.cloudinary.com/dwkp0e1yo/image/upload/v1685974228/beacas-test/jfxcjmvjqxfvafs4ssbk.png",
+  "content": {
+    "data": {
+      "fonts": [
+        {
+          "href": "https://fonts.googleapis.com/css?family=Tangerine",
+          "name": "Tangerine"
+        }
+      ],
+      "breakpoint": "480px",
+      "blockAttributes": {
+        "standard-paragraph": {
+          "align": "center",
+          "padding-right": "2px",
+          "padding-bottom": "3px"
+        }
+      },
+      "classAttributes": {},
+      "globalAttributes": {},
+      "categoryAttributes": {
+        "BUTTON": { "padding-right": "25px", "padding-bottom": "10px" }
+      }
+    },
+    "type": "page",
+    "children": [
+      {
+        "data": {},
+        "type": "standard-section",
+        "children": [
+          {
+            "data": {},
+            "type": "standard-column",
+            "children": [
+              {
+                "data": {},
+                "type": "standard-image",
+                "children": [{ "text": "" }],
+                "attributes": {
+                  "src": "https://res.cloudinary.com/dfite2e16/image/upload/v1681907056/clgnivsuj0018z9ltiixmxf6k/ilh6rri61f512i7wb6yd.png",
+                  "width": "66px"
+                }
+              }
+            ],
+            "attributes": {}
+          }
+        ],
+        "attributes": { "padding-right": "25px", "padding-bottom": "10px" }
+      },
+      {
+        "data": {},
+        "type": "standard-section",
+        "children": [
+          {
+            "data": {},
+            "type": "standard-column",
+            "children": [
+              {
+                "data": {},
+                "name": "Text",
+                "type": "standard-paragraph",
+                "children": [
+                  {
+                    "text": "Buy one, get one free + free shipping on orders $75+"
+                  }
+                ],
+                "attributes": {
+                  "color": "#FFFFFF",
+                  "padding-right": "2px",
+                  "padding-bottom": "3px"
+                }
+              }
+            ],
+            "attributes": {}
+          }
+        ],
+        "attributes": {
+          "padding-bottom": "10px",
+          "background-color": "rgb(24, 67, 82)"
+        }
+      },
+      {
+        "data": {},
+        "type": "standard-section",
+        "children": [
+          {
+            "data": {},
+            "type": "standard-column",
+            "children": [
+              {
+                "data": {},
+                "name": "Text",
+                "type": "standard-paragraph",
+                "children": [{ "text": "IS IT TIME TO REORDER?" }],
+                "attributes": {
+                  "color": "rgb(24, 67, 82)",
+                  "font-size": "46px",
+                  "font-family": "Verdana",
+                  "padding-top": "30px",
+                  "padding-right": "2px",
+                  "container-background-color": "#FFFFFF"
+                },
+                "mobileAttributes": {
+                  "font-size": "28px",
+                  "padding-left": "20px",
+                  "padding-right": "20px",
+                  "padding-bottom": "30px"
+                }
+              },
+              {
+                "data": {},
+                "name": "Text",
+                "type": "standard-paragraph",
+                "children": [
+                  { "text": "For a limited time, buy one and get one free." }
+                ],
+                "attributes": {
+                  "padding-right": "2px",
+                  "padding-bottom": "30px",
+                  "container-background-color": "#FFFFFF"
+                },
+                "mobileAttributes": {
+                  "padding-left": "20px",
+                  "padding-right": "20px",
+                  "padding-bottom": "3px"
+                }
+              },
+              {
+                "data": { "content": "Button" },
+                "type": "standard-button",
+                "children": [{ "text": "Stock up & save" }],
+                "attributes": {
+                  "font-weight": "bold",
+                  "padding-top": "20px",
+                  "padding-right": "25px",
+                  "padding-bottom": "10px",
+                  "background-color": "#184352",
+                  "inner-padding-top": "20px",
+                  "inner-padding-left": "35px",
+                  "inner-padding-right": "35px",
+                  "inner-padding-bottom": "20px"
+                }
+              }
+            ],
+            "attributes": {}
+          }
+        ],
+        "attributes": {
+          "padding-top": "30px",
+          "padding-left": "20px",
+          "padding-right": "20px",
+          "background-url": "https://res.cloudinary.com/dfite2e16/image/upload/v1681907339/clgnivsuj0018z9ltiixmxf6k/wtjkhrwbiyjb85skuf5o.png",
+          "padding-bottom": "30px",
+          "background-image-enabled": true
+        }
+      },
+      {
+        "data": {},
+        "type": "standard-section",
+        "children": [
+          {
+            "data": {},
+            "type": "standard-column",
+            "children": [
+              {
+                "data": {},
+                "name": "Text",
+                "type": "standard-paragraph",
+                "children": [
+                  { "text": "Pssst...you're a VIP Insider" },
+                  {
+                    "data": {},
+                    "type": "line-break",
+                    "children": [{ "text": "" }],
+                    "attributes": {}
+                  },
+                  {
+                    "text": "Remember, as a VIP, you can take advantage of our exclusive offers and promotions, including free shipping on orders over $75."
+                  },
+                  {
+                    "data": {},
+                    "type": "line-break",
+                    "children": [{ "text": "" }],
+                    "attributes": {}
+                  },
+                  { "text": "" },
+                  {
+                    "data": {},
+                    "type": "line-break",
+                    "children": [{ "text": "" }],
+                    "attributes": {}
+                  },
+                  { "text": "See exclusive offers" }
+                ],
+                "attributes": {
+                  "align": "left",
+                  "padding-right": "2px",
+                  "padding-bottom": "3px"
+                }
+              }
+            ],
+            "attributes": { "width": "100%" }
+          }
+        ],
+        "attributes": {
+          "padding-top": "30px",
+          "padding-left": "20px",
+          "padding-right": "20px",
+          "padding-bottom": "30px",
+          "background-color": "rgb(191, 212, 217)"
+        }
+      },
+      {
+        "data": {},
+        "type": "standard-section",
+        "children": [
+          {
+            "data": {},
+            "type": "standard-group",
+            "children": [
+              {
+                "data": {},
+                "type": "standard-column",
+                "children": [
+                  {
+                    "data": {},
+                    "type": "standard-image",
+                    "children": [{ "text": "" }],
+                    "attributes": {
+                      "src": "https://res.cloudinary.com/dfite2e16/image/upload/v1681907999/clgnivsuj0018z9ltiixmxf6k/dvmsv7ijnecto5wbxvkd.png",
+                      "width": "32px",
+                      "height": "52px",
+                      "padding-right": "0px",
+                      "padding-bottom": "0px"
+                    }
+                  },
+                  {
+                    "data": {},
+                    "name": "Text",
+                    "type": "standard-paragraph",
+                    "children": [
+                      { "text": "Buy online" },
+                      {
+                        "data": {},
+                        "type": "line-break",
+                        "children": [{ "text": "" }],
+                        "attributes": {}
+                      },
+                      { "text": "and pickup in store" },
+                      {
+                        "data": {},
+                        "type": "line-break",
+                        "children": [{ "text": "" }],
+                        "attributes": {}
+                      },
+                      { "text": "Find a store" }
+                    ],
+                    "attributes": {
+                      "font-size": "14px",
+                      "padding-right": "2px",
+                      "padding-bottom": "3px"
+                    },
+                    "mobileAttributes": {
+                      "align": "center",
+                      "padding-right": "2px",
+                      "padding-bottom": "3px"
+                    }
+                  }
+                ],
+                "attributes": { "width": "33.33%" }
+              },
+              {
+                "data": {},
+                "type": "standard-column",
+                "children": [
+                  {
+                    "data": {},
+                    "type": "standard-image",
+                    "children": [{ "text": "" }],
+                    "attributes": {
+                      "src": "https://res.cloudinary.com/dfite2e16/image/upload/v1681908094/clgnivsuj0018z9ltiixmxf6k/bfdy5jevfcumwwkwjaws.png",
+                      "width": "98px",
+                      "height": "52px",
+                      "padding": "0px 0px 0px 0px",
+                      "padding-right": "0px",
+                      "padding-bottom": "0px"
+                    }
+                  },
+                  {
+                    "data": {},
+                    "name": "Text",
+                    "type": "standard-paragraph",
+                    "children": [
+                      { "text": "Buy online" },
+                      {
+                        "data": {},
+                        "type": "line-break",
+                        "children": [{ "text": "" }],
+                        "attributes": {}
+                      },
+                      { "text": "and pickup in store" },
+                      {
+                        "data": {},
+                        "type": "line-break",
+                        "children": [{ "text": "" }],
+                        "attributes": {}
+                      },
+                      { "text": "Find a store" }
+                    ],
+                    "attributes": {
+                      "font-size": "14px",
+                      "padding-right": "2px",
+                      "padding-bottom": "3px"
+                    }
+                  }
+                ],
+                "attributes": { "width": "33.33%" }
+              },
+              {
+                "data": {},
+                "type": "standard-column",
+                "children": [
+                  {
+                    "data": {},
+                    "type": "standard-image",
+                    "children": [{ "text": "" }],
+                    "attributes": {
+                      "src": "https://res.cloudinary.com/dfite2e16/image/upload/v1681908145/clgnivsuj0018z9ltiixmxf6k/tc5nediq8rj2ccogk3cv.png",
+                      "width": "52px",
+                      "height": "52px",
+                      "padding": "0px 0px 0px 0px",
+                      "padding-right": "0px",
+                      "padding-bottom": "0px"
+                    }
+                  },
+                  {
+                    "data": {},
+                    "name": "Text",
+                    "type": "standard-paragraph",
+                    "children": [
+                      { "text": "Buy online" },
+                      {
+                        "data": {},
+                        "type": "line-break",
+                        "children": [{ "text": "" }],
+                        "attributes": {}
+                      },
+                      { "text": "and pickup in store" },
+                      {
+                        "data": {},
+                        "type": "line-break",
+                        "children": [{ "text": "" }],
+                        "attributes": {}
+                      },
+                      { "text": "Find a store" }
+                    ],
+                    "attributes": {
+                      "font-size": "14px",
+                      "padding-right": "2px",
+                      "padding-bottom": "3px"
+                    }
+                  }
+                ],
+                "attributes": { "width": "33.34%" }
+              }
+            ],
+            "attributes": {}
+          }
+        ],
+        "attributes": {
+          "padding-left": "20px",
+          "padding-right": "20px",
+          "padding-bottom": "10px"
+        },
+        "mobileAttributes": {
+          "padding-left": "10px",
+          "padding-right": "10px",
+          "padding-bottom": "10px"
+        }
+      },
+      {
+        "data": {},
+        "type": "standard-section",
+        "children": [
+          {
+            "data": {},
+            "type": "standard-column",
+            "children": [
+              {
+                "data": {},
+                "type": "standard-spacer",
+                "children": [{ "text": "" }],
+                "attributes": {
+                  "height": "10px",
+                  "container-background-color": "#053141"
+                }
+              }
+            ],
+            "attributes": { "width": "100%" }
+          }
+        ],
+        "attributes": {
+          "padding-top": "0px",
+          "padding-left": "0px",
+          "padding-right": "0px",
+          "padding-bottom": "0px"
+        },
+        "mobileAttributes": { "padding-right": "0px", "padding-bottom": "0px" }
+      },
+      {
+        "data": {},
+        "type": "standard-section",
+        "children": [
+          {
+            "data": {},
+            "type": "standard-column",
+            "children": [
+              {
+                "data": {},
+                "name": "Text",
+                "type": "standard-paragraph",
+                "children": [
+                  { "text": "Questions?" },
+                  {
+                    "data": {},
+                    "type": "line-break",
+                    "children": [{ "text": "" }],
+                    "attributes": {}
+                  },
+                  { "text": "Check out our FAQs or send us a note here." }
+                ],
+                "attributes": {
+                  "font-size": "12px",
+                  "padding-top": "3px",
+                  "padding-left": "3px",
+                  "padding-right": "3px",
+                  "padding-bottom": "3px"
+                }
+              },
+              {
+                "data": {},
+                "type": "standard-social",
+                "children": [
+                  {
+                    "data": {},
+                    "type": "standard-social-element",
+                    "children": [{ "text": "" }],
+                    "attributes": {
+                      "src": "https://res.cloudinary.com/dfite2e16/image/upload/v1681908489/clgnivsuj0018z9ltiixmxf6k/xkd0kfnytbfywsofk8t6.png",
+                      "href": ""
+                    }
+                  },
+                  {
+                    "data": {},
+                    "type": "standard-social-element",
+                    "children": [{ "text": "" }],
+                    "attributes": {
+                      "src": "https://res.cloudinary.com/dfite2e16/image/upload/v1681908521/clgnivsuj0018z9ltiixmxf6k/ulyduaza1votoacctoi3.png",
+                      "href": ""
+                    }
+                  },
+                  {
+                    "data": {},
+                    "type": "standard-social-element",
+                    "children": [{ "text": "" }],
+                    "attributes": {
+                      "src": "https://res.cloudinary.com/dfite2e16/image/upload/v1681908543/clgnivsuj0018z9ltiixmxf6k/wtefhsfwaapcdbz7knqw.png",
+                      "href": ""
+                    }
+                  }
+                ],
+                "attributes": { "icon-size": "30px", "padding-bottom": "0px" },
+                "mobileAttributes": { "padding-bottom": "0px" }
+              }
+            ],
+            "attributes": { "width": "100%" }
+          }
+        ],
+        "attributes": {
+          "padding-top": "20px",
+          "padding-right": "25px",
+          "padding-bottom": "20px",
+          "background-color": "rgb(191, 212, 217)"
+        }
+      }
+    ],
+    "attributes": {
+      "width": "600px",
+      "margin-top": "20px",
+      "margin-bottom": "20px",
+      "background-color": "#f3f2f2",
+      "content-background-color": "#FFFFFF"
+    }
+  }
+}

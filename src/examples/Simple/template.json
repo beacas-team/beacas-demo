@@ -1,0 +1,372 @@
+{
+  "subject": "Blank",
+  "content": {
+    "data": {
+      "breakpoint": "480px",
+      "blockAttributes": { "standard-paragraph": { "color": "#FFFFFF" } }
+    },
+    "type": "page",
+    "children": [
+      {
+        "type": "standard-section",
+        "data": {},
+        "attributes": { "background-color": "#FFFFFF" },
+        "children": [
+          {
+            "type": "standard-column",
+            "data": {},
+            "attributes": {},
+            "children": [
+              {
+                "type": "standard-navbar",
+                "data": {},
+                "attributes": {},
+                "children": [
+                  {
+                    "data": {},
+                    "type": "standard-navbar-link",
+                    "children": [{ "text": "Shop" }],
+                    "attributes": { "href": "" }
+                  },
+                  {
+                    "data": {},
+                    "type": "standard-navbar-link",
+                    "children": [{ "text": "About" }],
+                    "attributes": { "href": "" }
+                  },
+                  {
+                    "data": {},
+                    "type": "standard-navbar-link",
+                    "children": [{ "text": "Contact" }],
+                    "attributes": { "href": "" }
+                  },
+                  {
+                    "data": {},
+                    "type": "standard-navbar-link",
+                    "children": [{ "text": "Blog" }],
+                    "attributes": { "href": "" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "standard-section",
+        "data": {},
+        "attributes": { "padding-bottom": "0px" },
+        "children": [
+          {
+            "type": "standard-column",
+            "attributes": { "width": "100%" },
+            "data": {},
+            "children": [
+              {
+                "name": "Text",
+                "type": "standard-paragraph",
+                "data": {},
+                "attributes": {},
+                "children": [{ "text": "JOIN US FOR A FEAST ON" }]
+              },
+              {
+                "name": "Text",
+                "type": "standard-paragraph",
+                "data": {},
+                "attributes": { "font-size": "36px" },
+                "children": [{ "text": "St. Patrick's Day" }]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "standard-section",
+        "data": {},
+        "attributes": { "padding-top": "0px" },
+        "children": [
+          {
+            "type": "standard-column",
+            "attributes": { "width": "480px" },
+            "data": {},
+            "children": [
+              {
+                "name": "Text",
+                "type": "standard-paragraph",
+                "data": {},
+                "attributes": {
+                  "padding-left": "20px",
+                  "padding-right": "20px"
+                },
+                "children": [
+                  {
+                    "text": "From hearty stews and comforting shepherd's pie to classic fish and chips, we have something to satisfy every appetite."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "standard-section",
+        "data": {},
+        "attributes": { "padding-top": "0px", "padding-bottom": "0px" },
+        "children": [
+          {
+            "type": "standard-column",
+            "attributes": { "width": "100%" },
+            "data": {},
+            "children": [
+              {
+                "type": "standard-image",
+                "data": {},
+                "attributes": {
+                  "padding": "0px 0px 0px 0px",
+                  "src": "http://res.cloudinary.com/dwkp0e1yo/image/upload/v1685767028/beacas-test/eeh0ux8zk3as5argvqfc.png",
+                  "padding-top": "0px",
+                  "padding-bottom": "0px",
+                  "padding-left": "0px",
+                  "padding-right": "0px"
+                },
+                "children": [{ "text": "" }]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "standard-section",
+        "data": {},
+        "attributes": {},
+        "children": [
+          {
+            "type": "standard-column",
+            "attributes": { "width": "100%" },
+            "data": {},
+            "children": [
+              {
+                "type": "standard-button",
+                "data": { "content": "Button" },
+                "attributes": {
+                  "background-color": "#C5900C",
+                  "width": "100%",
+                  "font-size": "16px"
+                },
+                "children": [{ "text": "Book a table" }]
+              },
+              {
+                "type": "standard-button",
+                "data": { "content": "Button" },
+                "attributes": {
+                  "background-color": "#FCF0D3",
+                  "width": "100%",
+                  "font-size": "16px",
+                  "color": "#C5900C",
+                  "border-enabled": true,
+                  "border-color": "#C5900C",
+                  "border-width": "3px"
+                },
+                "children": [{ "text": "Book a table" }]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "standard-section",
+        "data": {},
+        "attributes": {
+          "background-color": "#FFFFFF",
+          "padding-top": "0px",
+          "padding-bottom": "0px"
+        },
+        "children": [
+          {
+            "type": "standard-column",
+            "attributes": { "width": "50%" },
+            "data": {},
+            "children": [
+              {
+                "name": "Text",
+                "type": "standard-paragraph",
+                "data": {},
+                "attributes": {
+                  "align": "left",
+                  "color": "#000000",
+                  "padding-top": "25px",
+                  "padding-bottom": "25px",
+                  "padding-left": "25px",
+                  "padding-right": "25px"
+                },
+                "children": [
+                  {
+                    "text": "And of course, no Irish meal would be complete without a pint of Guinness or a dram of Irish whiskey to wash it down."
+                  },
+                  {
+                    "type": "line-break",
+                    "children": [{ "text": "" }],
+                    "data": {},
+                    "attributes": {}
+                  },
+                  { "text": "" },
+                  {
+                    "type": "line-break",
+                    "children": [{ "text": "" }],
+                    "data": {},
+                    "attributes": {}
+                  },
+                  { "text": "View drink menu", "bold": true }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "standard-column",
+            "attributes": { "width": "50%" },
+            "data": {},
+            "children": [
+              {
+                "type": "standard-image",
+                "data": {},
+                "attributes": {
+                  "padding-top": "25px",
+                  "padding-bottom": "25px",
+                  "padding-left": "25px",
+                  "padding-right": "25px",
+                  "src": "http://res.cloudinary.com/dwkp0e1yo/image/upload/v1685770033/beacas-test/qldc1llj6g2clq5f7kxq.png"
+                },
+                "children": [{ "text": "" }]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "standard-section",
+        "data": {},
+        "attributes": {
+          "background-color": "#ffffff",
+          "padding-top": "0px",
+          "padding-bottom": "0px"
+        },
+        "children": [
+          {
+            "type": "standard-column",
+            "attributes": { "width": "100%" },
+            "data": {},
+            "children": [
+              {
+                "type": "standard-divider",
+                "data": {},
+                "attributes": {},
+                "children": [{ "text": "" }]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "standard-section",
+        "data": {},
+        "attributes": {
+          "background-color": "#FFFFFF",
+          "direction": "rtl",
+          "padding-top": "0px",
+          "padding-bottom": "0px"
+        },
+        "children": [
+          {
+            "type": "standard-column",
+            "attributes": { "width": "50%" },
+            "data": {},
+            "children": [
+              {
+                "name": "Text",
+                "type": "standard-paragraph",
+                "data": {},
+                "attributes": {
+                  "align": "left",
+                  "color": "#000000",
+                  "padding-top": "25px",
+                  "padding-bottom": "25px",
+                  "padding-left": "25px",
+                  "padding-right": "25px"
+                },
+                "children": [
+                  {
+                    "text": "And of course, no Irish meal would be complete without a pint of Guinness or a dram of Irish whiskey to wash it down."
+                  },
+                  {
+                    "type": "line-break",
+                    "children": [{ "text": "" }],
+                    "data": {},
+                    "attributes": {}
+                  },
+                  { "text": "" },
+                  {
+                    "type": "line-break",
+                    "children": [{ "text": "" }],
+                    "data": {},
+                    "attributes": {}
+                  },
+                  { "text": "View drink menu", "bold": true }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "standard-column",
+            "attributes": { "width": "50%" },
+            "data": {},
+            "children": [
+              {
+                "type": "standard-image",
+                "data": {},
+                "attributes": {
+                  "padding-top": "25px",
+                  "padding-bottom": "25px",
+                  "padding-left": "25px",
+                  "padding-right": "25px",
+                  "src": "http://res.cloudinary.com/dwkp0e1yo/image/upload/v1685770171/beacas-test/s2lobnaczdivjzhfqe4j.png"
+                },
+                "children": [{ "text": "" }]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "standard-section",
+        "data": {},
+        "attributes": {},
+        "children": [
+          {
+            "type": "standard-column",
+            "attributes": { "width": "100%" },
+            "data": {},
+            "children": [
+              {
+                "name": "Text",
+                "type": "standard-paragraph",
+                "data": {},
+                "attributes": {},
+                "children": [
+                  { "text": "No longer want to receive these emails? " },
+                  {
+                    "text": "unsubscribe",
+                    "link": { "href": "#", "blank": true }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "attributes": {
+      "background-color": "#8C9A80",
+      "content-background-color": "#263D29"
+    }
+  }
+}
