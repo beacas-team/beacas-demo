@@ -4,13 +4,7 @@ import {
   EmailTemplate,
   useEditorContext,
 } from "beacas-editor";
-import {
-  BeacasCore,
-  BlockManager,
-  ElementType,
-  NodeUtils,
-  t,
-} from "beacas-core";
+import { BlockManager, ElementType, NodeUtils, t } from "beacas-core";
 import {
   ConfigPanelsMap,
   IconFont,
@@ -31,12 +25,8 @@ import { DynamicCustomBlock, ProductItem } from "./custom";
 import { DynamicCustomElement } from "@/custom-types";
 import { fetchProducts } from "./mergetagData";
 
-BeacasCore.auth({
-  clientId: "clgnivsuj0018z9ltiixmxf6k",
-}).then(() => {
-  BlockManager.registerBlocks([DynamicCustomBlock]);
-  ConfigPanelsMap[CustomBlockType.DYNAMIC_CUSTOM_BLOCK] = Panel;
-});
+BlockManager.registerBlocks([DynamicCustomBlock]);
+ConfigPanelsMap[CustomBlockType.DYNAMIC_CUSTOM_BLOCK] = Panel;
 
 const mergetags = [
   {
@@ -357,6 +347,7 @@ export default function MyEditor() {
     mergetagsData: mergetagsData,
     mergetags,
     categories,
+    clientId: "clgnivsuj0018z9ltiixmxf6k",
   });
 
   return (

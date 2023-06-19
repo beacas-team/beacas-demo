@@ -66,6 +66,7 @@ export const EditorHeader = (props: { extra?: React.ReactNode }) => {
   };
 
   const onExportJSON = () => {
+    navigator.clipboard.writeText(JSON.stringify(values, null, 2));
     saveAs(
       new Blob([JSON.stringify(values, null, 2)], { type: "application/json" }),
       "beacas.json"

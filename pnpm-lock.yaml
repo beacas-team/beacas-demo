@@ -20,10 +20,10 @@ specifiers:
   '@vercel/node': ^2.14.3
   '@vitejs/plugin-react': ^3.1.0
   axios: ^1.4.0
-  beacas-core: ^0.7.0
-  beacas-editor: ^0.7.0
+  beacas-core: ^0.8.0
+  beacas-editor: ^0.8.0
   beacas-localization: ^0.0.17
-  beacas-plugins: ^0.7.0
+  beacas-plugins: ^0.8.0
   file-saver: ^2.0.5
   he: ^1.2.0
   html2canvas: ^1.4.1
@@ -61,10 +61,10 @@ dependencies:
   '@types/mjml': 4.7.1
   '@vercel/node': 2.14.3
   axios: 1.4.0
-  beacas-core: 0.7.0
-  beacas-editor: 0.7.0
+  beacas-core: 0.8.0_biqbaboplfbrettd7655fr4n2y
+  beacas-editor: 0.8.0_biqbaboplfbrettd7655fr4n2y
   beacas-localization: 0.0.17
-  beacas-plugins: 0.7.0
+  beacas-plugins: 0.8.0_tlnsjp2j2d7zzd3ewh7kxjcbnq
   file-saver: 2.0.5
   he: 1.2.0
   html2canvas: 1.4.1
@@ -1254,8 +1254,8 @@ packages:
     resolution: {integrity: sha512-I3yl4r9QB5ZRY3XuJVEPfc2XhZO6YweFPI+UovAzn+8/hb3oJ6lnysaFcjVpkCPfVWFUDvoZ8kmVDP7WyRtYtQ==}
     engines: {node: '>= 0.6.0'}
 
-  /beacas-core/0.7.0:
-    resolution: {integrity: sha512-nDGy1/F646NU93/HIzRLNAVh0JLAOb7UCM9Xccu96x5dGh0vupFKWJfrXVpNBDJaE50lyaVDGOPqJdpsISGPGA==}
+  /beacas-core/0.8.0_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-QNZoU6bcNb1mGwPLpWvV98NBmAoBxO3G6bAGIRCVsr+tpbz6VMF9OzH+K7oMMQpczht+DG2iGvLtEetUGN9giQ==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
@@ -1270,12 +1270,14 @@ packages:
       js-beautify: 1.14.7
       liquidjs: 10.7.1
       lodash: 4.17.21
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
     transitivePeerDependencies:
       - debug
     dev: false
 
-  /beacas-editor/0.7.0:
-    resolution: {integrity: sha512-y4X4ils2dL3dlevWKRLNGHHZeHDUsSbMUoBp5trnsqVOyqBhPZiF96ABloysJJhLvhaTND9vfSHlwQPdut8Mww==}
+  /beacas-editor/0.8.0_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-RKfVbCtRYSRH+poKS4ioEn4B6NZytzPSjHs3ZQx6tZaeIo1ULpAkK4/a2xwadnASsdQv13nxzFjiIxqjpZXQCA==}
     peerDependencies:
       react: ^18.2.0
       react-dom: ^18.2.0
@@ -1286,9 +1288,11 @@ packages:
       is-hotkey: 0.2.0
       lodash: 4.17.21
       overlayscrollbars: 1.13.3
-      overlayscrollbars-react: 0.3.0_overlayscrollbars@1.13.3
+      overlayscrollbars-react: 0.3.0_xe725h2d5kcgarcqbsx2itrmxy
       parse5: 7.1.2
+      react: 18.2.0
       react-attr-converter: 0.3.1
+      react-dom: 18.2.0_react@18.2.0
     transitivePeerDependencies:
       - debug
     dev: false
@@ -1297,14 +1301,15 @@ packages:
     resolution: {integrity: sha512-khmsWNwY+Adi/ahCoeOQXUTqpu8Pg+MzP8mXDlQctSCdk+PCzyoD5PxuHP0VGxvBf2kQUb3EW08Yi+N2imXU+A==}
     dev: false
 
-  /beacas-plugins/0.7.0:
-    resolution: {integrity: sha512-HvUJaxEBGrpFDtLl5ELZCUd7dtufJ3WOZLTn65cTzvZmm8n2LRPdb1bFM07u+SG5yZRt5iRX+EkpLmWJfeymBw==}
+  /beacas-plugins/0.8.0_tlnsjp2j2d7zzd3ewh7kxjcbnq:
+    resolution: {integrity: sha512-lyE5h4vfelqjxmlLtxhAFx8MXqWU8Lytsst+r3LAt4qYHdz/ShZgX+kDYQK/VSKo0YzCpD4aUiQPQTmzkfaFdQ==}
     peerDependencies:
       '@arco-design/web-react': ^2.46.3
       mjml-browser: ^4.14.1
       react: ^18.2.0
       react-dom: ^18.2.0
     dependencies:
+      '@arco-design/web-react': 2.48.1_tqcjxml4rosq5qpg5cznikfcd4
       '@types/gif.js': 0.2.2
       axios: 1.4.0
       color: 4.2.3
@@ -1313,12 +1318,15 @@ packages:
       html2canvas: 1.4.1
       is-hotkey: 0.2.0
       lodash: 4.17.21
+      mjml-browser: 4.14.1
       mobx: 6.9.0
-      mobx-react: 7.6.0_mobx@6.9.0
+      mobx-react: 7.6.0_lrdhi4fih7ii4kmeak7ov4c3ha
       monaco-editor: 0.36.1
       overlayscrollbars: 1.13.3
-      overlayscrollbars-react: 0.3.0_overlayscrollbars@1.13.3
-      react-beautiful-dnd: 13.1.1
+      overlayscrollbars-react: 0.3.0_xe725h2d5kcgarcqbsx2itrmxy
+      react: 18.2.0
+      react-beautiful-dnd: 13.1.1_biqbaboplfbrettd7655fr4n2y
+      react-dom: 18.2.0_react@18.2.0
     transitivePeerDependencies:
       - debug
       - react-native
@@ -2968,22 +2976,6 @@ packages:
       react-dom: 18.2.0_react@18.2.0
     dev: false
 
-  /mobx-react-lite/3.4.3_mobx@6.9.0:
-    resolution: {integrity: sha512-NkJREyFTSUXR772Qaai51BnE1voWx56LOL80xG7qkZr6vo8vEaLF3sz1JNUVh+rxmUzxYaqOhfuxTfqUh0FXUg==}
-    peerDependencies:
-      mobx: ^6.1.0
-      react: ^16.8.0 || ^17 || ^18
-      react-dom: '*'
-      react-native: '*'
-    peerDependenciesMeta:
-      react-dom:
-        optional: true
-      react-native:
-        optional: true
-    dependencies:
-      mobx: 6.9.0
-    dev: false
-
   /mobx-react/7.6.0_lrdhi4fih7ii4kmeak7ov4c3ha:
     resolution: {integrity: sha512-+HQUNuh7AoQ9ZnU6c4rvbiVVl+wEkb9WqYsVDzGLng+Dqj1XntHu79PvEWKtSMoMj67vFp/ZPXcElosuJO8ckA==}
     peerDependencies:
@@ -3001,23 +2993,6 @@ packages:
       mobx-react-lite: 3.4.3_lrdhi4fih7ii4kmeak7ov4c3ha
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-    dev: false
-
-  /mobx-react/7.6.0_mobx@6.9.0:
-    resolution: {integrity: sha512-+HQUNuh7AoQ9ZnU6c4rvbiVVl+wEkb9WqYsVDzGLng+Dqj1XntHu79PvEWKtSMoMj67vFp/ZPXcElosuJO8ckA==}
-    peerDependencies:
-      mobx: ^6.1.0
-      react: ^16.8.0 || ^17 || ^18
-      react-dom: '*'
-      react-native: '*'
-    peerDependenciesMeta:
-      react-dom:
-        optional: true
-      react-native:
-        optional: true
-    dependencies:
-      mobx: 6.9.0
-      mobx-react-lite: 3.4.3_mobx@6.9.0
     dev: false
 
   /mobx/6.9.0:
@@ -3141,13 +3116,14 @@ packages:
       wrappy: 1.0.2
     dev: false
 
-  /overlayscrollbars-react/0.3.0_overlayscrollbars@1.13.3:
+  /overlayscrollbars-react/0.3.0_xe725h2d5kcgarcqbsx2itrmxy:
     resolution: {integrity: sha512-dV74p9VL/aImqJpeYz0vmpScZYu6UiNTmRKfyI4CS0OYUpYCUiTd723adY38Grz2W57hoNCECWDzkOJRFDQeZg==}
     peerDependencies:
       overlayscrollbars: ^1.10.0
       react: ^16.4.0 || ^17.0.0 || ^18.0.0
     dependencies:
       overlayscrollbars: 1.13.3
+      react: 18.2.0
     dev: false
 
   /overlayscrollbars/1.13.3:
@@ -3293,7 +3269,7 @@ packages:
     resolution: {integrity: sha512-dSxo2Mn6Zx4HajeCeQNLefwEO4kNtV/0E682R1+ZTyFRPqxDa5zYb5qM/ocqw9Bxr/kFQO0IUiqdV7wdHw+Cdg==}
     dev: false
 
-  /react-beautiful-dnd/13.1.1:
+  /react-beautiful-dnd/13.1.1_biqbaboplfbrettd7655fr4n2y:
     resolution: {integrity: sha512-0Lvs4tq2VcrEjEgDXHjT98r+63drkKEgqyxdA7qD3mvKwga6a5SscbdLPO2IExotU1jW8L0Ksdl0Cj2AF67nPQ==}
     peerDependencies:
       react: ^16.8.5 || ^17.0.0 || ^18.0.0
@@ -3303,9 +3279,11 @@ packages:
       css-box-model: 1.2.1
       memoize-one: 5.2.1
       raf-schd: 4.0.3
-      react-redux: 7.2.9
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      react-redux: 7.2.9_biqbaboplfbrettd7655fr4n2y
       redux: 4.2.1
-      use-memo-one: 1.1.3
+      use-memo-one: 1.1.3_react@18.2.0
     transitivePeerDependencies:
       - react-native
     dev: false
@@ -3354,7 +3332,7 @@ packages:
     resolution: {integrity: sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==}
     dev: false
 
-  /react-redux/7.2.9:
+  /react-redux/7.2.9_biqbaboplfbrettd7655fr4n2y:
     resolution: {integrity: sha512-Gx4L3uM182jEEayZfRbI/G11ZpYdNAnBs70lFVMNdHJI76XYtR+7m0MN+eAs7UHBPhWXcnFPaS+9owSCJQHNpQ==}
     peerDependencies:
       react: ^16.8.3 || ^17 || ^18
@@ -3371,6 +3349,8 @@ packages:
       hoist-non-react-statics: 3.3.2
       loose-envify: 1.4.0
       prop-types: 15.8.1
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
       react-is: 17.0.2
     dev: false
 
@@ -3911,10 +3891,12 @@ packages:
       tslib: 2.5.2
     dev: false
 
-  /use-memo-one/1.1.3:
+  /use-memo-one/1.1.3_react@18.2.0:
     resolution: {integrity: sha512-g66/K7ZQGYrI6dy8GLpVcMsBp4s17xNkYJVSMvTEevGy3nDxHOfE6z8BVE22+5G5x7t3+bhzrlTDB7ObrEE0cQ==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      react: 18.2.0
     dev: false
 
   /use-sidecar/1.1.2_s3k22s5ab4eu26xuel7hiaraxy:

@@ -31,6 +31,7 @@ const DynamicCustomBlock = React.lazy(
 );
 const FrozenBlock = React.lazy(() => import("./examples/FrozenBlock/index"));
 const ReadOnly = React.lazy(() => import("./examples/ReadOnly/index"));
+const Minimalist = React.lazy(() => import("./examples/Minimalist/index"));
 const TemplateEditor = React.lazy(
   () => import("./examples/TemplateEditor/index")
 );
@@ -80,6 +81,11 @@ export const navigation = [
     name: "Read only",
     path: "/read-only",
     element: <ReadOnly />,
+  },
+  {
+    name: "Notion-like(processing)",
+    path: "/notion-like",
+    element: <Minimalist />,
   },
 ];
 

@@ -1,9 +1,8 @@
 import { useMemo } from "react";
 import { BeacasEditorProvider, EmailTemplate } from "beacas-editor";
-import { Retro } from "beacas-plugins";
+import { Minimalist } from "beacas-plugins";
 import "beacas-plugins/lib/style.css";
 import "@arco-themes/react-beacas-theme-retro/css/arco.css";
-
 import data from "./template.json";
 import { EditorHeader } from "../../components/EditorHeader";
 import { useUpload } from "../../hooks/useUpload";
@@ -28,7 +27,7 @@ export default function MyEditor() {
     console.log(values);
   };
 
-  const config = Retro.useCreateConfig({
+  const config = Minimalist.useCreateConfig({
     onUpload,
     initialValues: initialValues,
     onSubmit: onSubmit,
@@ -41,7 +40,7 @@ export default function MyEditor() {
       <EditorHeader />
 
       <Layout.Content>
-        <Retro.Layout height={"calc(100vh - 66px)"}></Retro.Layout>
+        <Minimalist.Layout height={"calc(100vh - 66px)"}></Minimalist.Layout>
       </Layout.Content>
     </BeacasEditorProvider>
   );

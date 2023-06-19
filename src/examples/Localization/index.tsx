@@ -1,19 +1,13 @@
 import { useMemo, useState } from "react";
 import { BeacasEditorProvider, EmailTemplate } from "beacas-editor";
-import { BeacasCore } from "beacas-core";
 import { Retro } from "beacas-plugins";
 import { get } from "lodash";
-import { createEditor } from "slate";
 import "beacas-plugins/lib/style.css";
 import "@arco-themes/react-beacas-theme-retro/css/arco.css";
 
 import localsData from "beacas-localization/locales/locales.json";
 
 console.log(localsData);
-
-BeacasCore.auth({
-  clientId: "clgnivsuj0018z9ltiixmxf6k",
-});
 
 import data from "./template.json";
 import { EditorHeader } from "../../components/EditorHeader";
@@ -23,8 +17,6 @@ import React from "react";
 
 export default function MyEditor() {
   const [lang, setLang] = useState<string>("en");
-
-  const editor = createEditor();
 
   const { upload } = useUpload();
 
@@ -48,6 +40,7 @@ export default function MyEditor() {
     initialValues: initialValues,
     onSubmit: onSubmit,
     localeData: get(localsData, lang),
+    clientId: "clgnivsuj0018z9ltiixmxf6k",
   });
 
   return (

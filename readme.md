@@ -37,12 +37,6 @@ import 'beacas-plugins/lib/style.css';
 // Theme style, If you need to change the theme, you can make a duplicate in https://arco.design/themes/design/6979/setting/base/Color
 import '@arco-themes/react-beacas-theme-retro/css/arco.css';
 
-// fill clientId to authenticate. If you haven't registered yet,
-// visit https://admin.beacas.com/ to get the clientId
-BeacasCore.auth({
-  clientId: "xxx",
-});
-
 export default function MyEditor() {
 
   // You can fetch data from the server.
@@ -66,6 +60,7 @@ const config = Retro.useCreateConfig({
   onUpload,
   initialValues: initialValues,
   onSubmit: onSubmit,
+  clientId: "",
 })
 
   return (

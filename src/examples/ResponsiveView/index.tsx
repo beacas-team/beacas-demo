@@ -1,15 +1,8 @@
 import { useMemo } from "react";
 import { BeacasEditorProvider, EmailTemplate } from "beacas-editor";
-import { BeacasCore } from "beacas-core";
 import { Retro } from "beacas-plugins";
-import { createEditor } from "slate";
 import "beacas-plugins/lib/style.css";
 import "@arco-themes/react-beacas-theme-retro/css/arco.css";
-
-BeacasCore.auth({
-  clientId: "clgnivsuj0018z9ltiixmxf6k",
-});
-
 import data from "./template.json";
 import { EditorHeader } from "../../components/EditorHeader";
 import { useUpload } from "../../hooks/useUpload";
@@ -17,8 +10,6 @@ import { Layout } from "@arco-design/web-react";
 import React from "react";
 
 export default function MyEditor() {
-  const editor = createEditor();
-
   const { upload } = useUpload();
 
   const initialValues: EmailTemplate | null = useMemo(() => {
@@ -40,6 +31,7 @@ export default function MyEditor() {
     onUpload,
     initialValues: initialValues,
     onSubmit: onSubmit,
+    clientId: "clgnivsuj0018z9ltiixmxf6k",
   });
 
   return (

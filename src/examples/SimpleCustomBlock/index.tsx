@@ -4,20 +4,13 @@ import {
   EmailEditorProps,
   EmailTemplate,
 } from "beacas-editor";
-import {
-  BeacasCore,
-  BlockManager,
-  ElementType,
-  NodeUtils,
-  t,
-} from "beacas-core";
+import { BlockManager, ElementType, NodeUtils, t } from "beacas-core";
 import {
   ConfigPanelsMap,
   IconFont,
   Retro,
   ThemeConfigProps,
 } from "beacas-plugins";
-import { createEditor } from "slate";
 import "beacas-plugins/lib/style.css";
 import "@arco-themes/react-beacas-theme-retro/css/arco.css";
 import { EditorHeader } from "../../components/EditorHeader";
@@ -29,13 +22,8 @@ import React from "react";
 import { SimpleCustomBlock } from "./custom";
 import { CustomBlockType } from "../constant";
 
-BeacasCore.auth({
-  clientId: "clgnivsuj0018z9ltiixmxf6k",
-}).then(() => {
-  BlockManager.registerBlocks([SimpleCustomBlock]);
-  ConfigPanelsMap[CustomBlockType.SIMPLE_CUSTOM_BLOCK] = CustomLogoPanel;
-});
-
+BlockManager.registerBlocks([SimpleCustomBlock]);
+ConfigPanelsMap[CustomBlockType.SIMPLE_CUSTOM_BLOCK] = CustomLogoPanel;
 const categories: ThemeConfigProps["categories"] = [
   {
     get label() {
@@ -240,8 +228,6 @@ const categories: ThemeConfigProps["categories"] = [
 ];
 
 export default function MyEditor() {
-  const editor = createEditor();
-
   const { upload } = useUpload();
 
   const initialValues: EmailTemplate | null = useMemo(() => {
@@ -282,6 +268,7 @@ export default function MyEditor() {
     onSubmit: onSubmit,
     categories,
     quantityLimitCheck: quantityLimitCheck,
+    clientId: "clgnivsuj0018z9ltiixmxf6k",
   });
 
   return (

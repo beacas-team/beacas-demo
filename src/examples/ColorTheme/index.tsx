@@ -1,6 +1,5 @@
 import { useMemo } from "react";
 import { BeacasEditorProvider, EmailTemplate } from "beacas-editor";
-import { BeacasCore } from "beacas-core";
 import { Retro } from "beacas-plugins";
 import { EditorHeader } from "../../components/EditorHeader";
 import { useUpload } from "../../hooks/useUpload";
@@ -8,10 +7,6 @@ import { Layout, Select, Space } from "@arco-design/web-react";
 import React from "react";
 import "beacas-plugins/lib/style.css";
 import data from "./template.json";
-
-BeacasCore.auth({
-  clientId: "clgnivsuj0018z9ltiixmxf6k",
-});
 
 import retroStyle from "@arco-themes/react-beacas-theme-retro/css/arco.css?inline";
 import colorPurpleStyle from "@arco-themes/react-beacas-colors-purple/css/arco.css?inline";
@@ -61,6 +56,7 @@ export default function MyEditor() {
     onUpload,
     initialValues: initialValues,
     onSubmit: onSubmit,
+    clientId: "clgnivsuj0018z9ltiixmxf6k",
   });
 
   return (

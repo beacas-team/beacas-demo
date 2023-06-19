@@ -5,7 +5,7 @@ import {
   useEditorContext,
   useEditorProps,
 } from "beacas-editor";
-import { BeacasCore, NodeUtils, t } from "beacas-core";
+import { NodeUtils, t } from "beacas-core";
 import {
   AttributeField,
   IconFont,
@@ -15,11 +15,6 @@ import {
 } from "beacas-plugins";
 import "beacas-plugins/lib/style.css";
 import "@arco-themes/react-beacas-theme-retro/css/arco.css";
-
-BeacasCore.auth({
-  clientId: "clgnivsuj0018z9ltiixmxf6k",
-});
-
 import data from "./template.json";
 import { EditorHeader } from "../../components/EditorHeader";
 import { useUpload } from "../../hooks/useUpload";
@@ -55,6 +50,7 @@ export default function MyEditor() {
     onSubmit: onSubmit,
     showSourceCode: true,
     readOnly: true,
+    clientId: "clgnivsuj0018z9ltiixmxf6k",
   });
 
   return (

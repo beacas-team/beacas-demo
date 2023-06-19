@@ -1,6 +1,5 @@
 import { useMemo } from "react";
 import { BeacasEditorProvider, EmailTemplate } from "beacas-editor";
-import { BeacasCore } from "beacas-core";
 import { Retro } from "beacas-plugins";
 import "beacas-plugins/lib/style.css";
 import "@arco-themes/react-beacas-theme-retro/css/arco.css";
@@ -59,10 +58,6 @@ const mergetagsData = {
   ],
 };
 
-BeacasCore.auth({
-  clientId: "clgnivsuj0018z9ltiixmxf6k",
-});
-
 import { EditorHeader } from "../../components/EditorHeader";
 import { useUpload } from "../../hooks/useUpload";
 import { Layout } from "@arco-design/web-react";
@@ -99,6 +94,7 @@ export default function TemplateEditor() {
     onSubmit: onSubmit,
     mergetagsData: mergetagsData,
     mergetags: mergetags,
+    clientId: "clgnivsuj0018z9ltiixmxf6k",
   });
 
   return (
