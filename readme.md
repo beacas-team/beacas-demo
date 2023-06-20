@@ -1,6 +1,5 @@
-Beacas simplifies the creation of responsive email templates by combining the editing capabilities of SlateJS with the compatibility of MJML. With drag-and-drop functionality, inline editing, and keyboard shortcuts, users can easily design visually appealing and feature-rich email templates.
+###  Beacas is a responsive drag-and-drop email editor based on Slate and MJML, supporting different content display on Mobile/Desktop.
 
-Build marketing campaigns, newsletters, or transactional emails effortlessly with Beacas. Create professional-grade responsive email templates efficiently.
 
 <div style="font-size:0">
   <img src="./desktop.png" style="display:inline-block;width:48%;margin-right:2%" />
@@ -10,6 +9,10 @@ Build marketing campaigns, newsletters, or transactional emails effortlessly wit
 <div>
   <img src="./templates.png" style="display:inline-block;width:98%"/>
 </div>
+
+## Community
+Joining [Slack](https://join.slack.com/t/beacashq/shared_invite/zt-1x0f399h2-9cw8JhBu~kkSpVDcK2iKYg)  grants you full access and privileges.
+
 
 ## Live Demo
 
